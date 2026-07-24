@@ -1,1 +1,18 @@
-
+[
+  {
+    "term": "Attachment",
+    "definition": "Attachment is an encounter card type. When an attachment enters play, it attaches to another card or game element.",
+    "seeAlso": [
+      "Attach To",
+      "Encounter Card",
+      "Enters Play"
+    ]
+  },
+  {
+    "term": "Attach To",
+    "definition": "Some cards enter play attached to another card or game element.",
+    "seeAlso": [
+      "Attachment"
+    ]
+  }
+]
