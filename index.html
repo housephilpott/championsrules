@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Searchable glossary for the Marvel Champions Rules Reference v1.8." />
+  <meta name="description" content="Searchable companion for the Marvel Champions Rules Reference v1.8." />
   <meta name="theme-color" content="#0f1420" />
-  <title>Champions Rules — Reference Glossary</title>
+  <title>Champions Rules — Reference</title>
 
   <!-- Favicons -->
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
@@ -28,13 +28,45 @@
 
   <!-- ===== App header ===== -->
   <header class="app-header">
-    <h1 class="app-title">Champions <span>Rules</span></h1>
+    <a href="#home" id="backHome" class="back-home" hidden>‹ Home</a>
+    <h1 class="app-title"><a href="#home">Champions <span>Rules</span></a></h1>
   </header>
 
-  <!-- ===== Main layout ===== -->
-  <div class="layout">
+  <!-- ============================================================
+       HOME — landing hub
+       ============================================================ -->
+  <section class="view home-view" data-section="home">
+    <div class="home-inner">
+      <p class="home-lead">Marvel Champions · Rules Reference v1.8</p>
+      <nav class="home-grid" aria-label="Sections">
+        <a class="home-btn" href="#glossary">
+          <span class="home-btn-icon" aria-hidden="true">📖</span>
+          <span class="home-btn-title">Glossary</span>
+          <span class="home-btn-sub">Searchable A–Z of terms &amp; rulings</span>
+        </a>
+        <a class="home-btn" href="#overview">
+          <span class="home-btn-icon" aria-hidden="true">🧭</span>
+          <span class="home-btn-title">Overview</span>
+          <span class="home-btn-sub">Golden Rules, Grim Rule &amp; round structure</span>
+        </a>
+        <a class="home-btn" href="#notable-changes">
+          <span class="home-btn-icon" aria-hidden="true">✨</span>
+          <span class="home-btn-title">Notable Changes</span>
+          <span class="home-btn-sub">What changed in version 1.8</span>
+        </a>
+        <a class="home-btn" href="#appendixes">
+          <span class="home-btn-icon" aria-hidden="true">📑</span>
+          <span class="home-btn-title">Appendixes</span>
+          <span class="home-btn-sub">Deck customization, setup, FAQ &amp; errata</span>
+        </a>
+      </nav>
+    </div>
+  </section>
 
-    <!-- Sidebar: search + term index -->
+  <!-- ============================================================
+       GLOSSARY — search + index + entry
+       ============================================================ -->
+  <div class="view layout" data-section="glossary" hidden>
     <aside class="sidebar" aria-label="Glossary navigation">
       <label for="search" class="visually-hidden">Search terms</label>
       <input
@@ -49,18 +81,113 @@
         <!-- Term links injected by app.js -->
       </nav>
     </aside>
-
-    <!-- Main entry content -->
     <main id="entry" class="content" aria-live="polite">
       <!-- Selected entry injected by app.js -->
     </main>
-
   </div>
+
+  <!-- ============================================================
+       OVERVIEW
+       ============================================================ -->
+  <main class="view content page-content" data-section="overview" hidden>
+    <h1 class="entry-title">Overview</h1>
+    <p class="entry-source">Rules Reference v1.8 · page 4</p>
+
+    <p class="entry-para">This document is intended as the definitive source for rules information, but does not teach players how to play the game. Players should first read the Learn to Play book in its entirety and use this Rules Reference as needed while playing the game.</p>
+    <p class="entry-para">The majority of this book consists of a glossary, which provides an alphabetical listing of terms and situations that might be encountered during a game. This section should be the first destination for players with rules questions.</p>
+    <p class="entry-para">The three appendices at the end of the book contain deck customization rules, setup rules, and a card anatomy.</p>
+
+    <h2 class="section-heading">The Golden Rules</h2>
+    <p class="entry-para">If the text of this Rules Reference directly contradicts the text of the Learn to Play book, the text of the Rules Reference takes precedence.</p>
+    <p class="entry-para">If the text of a card or the rules of a scenario directly contradicts the text of either the Rules Reference or the Learn to Play book, the text of the card or the scenario rules takes precedence.</p>
+
+    <h2 class="section-heading">The Grim Rule</h2>
+    <p class="entry-para">If players are unable to find the answer to a rules or timing conflict in this Rules Reference, resolve the conflict in the manner that the players perceive as the worst possible resolution at that moment with regards to winning the scenario, and continue with the game.</p>
+
+    <h2 class="section-heading">Component Limitations</h2>
+    <p class="entry-para">There is no limit to the number of threat tokens, damage tokens, acceleration tokens, status cards, or all-purpose counters that can be in the game at a given time. If players run out of the provided tokens, counters, or status cards, other tokens, counters, or coins may be used.</p>
+  </main>
+
+  <!-- ============================================================
+       NOTABLE CHANGES
+       ============================================================ -->
+  <main class="view content page-content" data-section="notable-changes" hidden>
+    <h1 class="entry-title">Notable Changes</h1>
+    <p class="entry-source">Rules Reference v1.8 · © 2026 Marvel</p>
+    <p class="entry-para">Summary of notable changes since the previous version:</p>
+    <ul class="entry-list">
+      <li>Defined keywords, encounter icons, and status cards in game language.</li>
+      <li>Page 5: Revised the “Simultaneous Timing Priority” chart.</li>
+      <li>Page 8: Added a step to the “Attack (Enemy Activation)” process.</li>
+      <li>Page 31: Revised the definition of “overkill.”</li>
+      <li>Page 37: Added a definition of “resolve.”</li>
+      <li>Page 42: Revised the definition of “surge.”</li>
+      <li>Page 50: Revised player deck customization rules.</li>
+      <li>Pages 57–62: Added and updated entries in “Appendix IV: FAQ.”</li>
+      <li>Pages 65–69: Added entries to “Appendix V: Errata.”</li>
+    </ul>
+  </main>
+
+  <!-- ============================================================
+       APPENDIXES
+       ============================================================ -->
+  <main class="view content page-content" data-section="appendixes" hidden>
+    <h1 class="entry-title">Appendixes</h1>
+    <p class="entry-source">Rules Reference v1.8</p>
+    <p class="entry-para">The Rules Reference includes six appendices covering setup, deck-building and reference material:</p>
+
+    <div class="appendix-list">
+      <div class="appendix-card">
+        <span class="appendix-num">I</span>
+        <div>
+          <h2 class="appendix-title">Deck Customization</h2>
+          <p class="appendix-page">Page 50</p>
+        </div>
+      </div>
+      <div class="appendix-card">
+        <span class="appendix-num">II</span>
+        <div>
+          <h2 class="appendix-title">Setup</h2>
+          <p class="appendix-page">Page 51</p>
+        </div>
+      </div>
+      <div class="appendix-card">
+        <span class="appendix-num">III</span>
+        <div>
+          <h2 class="appendix-title">Card Anatomy</h2>
+          <p class="appendix-page">Page 52</p>
+        </div>
+      </div>
+      <div class="appendix-card">
+        <span class="appendix-num">IV</span>
+        <div>
+          <h2 class="appendix-title">FAQ</h2>
+          <p class="appendix-page">Pages 57–62</p>
+        </div>
+      </div>
+      <div class="appendix-card">
+        <span class="appendix-num">V</span>
+        <div>
+          <h2 class="appendix-title">Errata</h2>
+          <p class="appendix-page">Pages 65–69</p>
+        </div>
+      </div>
+      <div class="appendix-card">
+        <span class="appendix-num">VI</span>
+        <div>
+          <h2 class="appendix-title">Game Environments (Beta)</h2>
+          <p class="appendix-page">Page 71</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="muted appendix-note">Detailed appendix content can be added here later — the layout is ready to drop it in.</p>
+  </main>
 
   <!-- ===== App logic ===== -->
   <script src="app.js" defer></script>
 
-  <!-- Minimal visually-hidden helper (kept inline so it can't be missed) -->
+  <!-- Visually-hidden helper (inline so it can't be missed) -->
   <style>
     .visually-hidden {
       position: absolute !important;
