@@ -131,58 +131,59 @@
   <!-- ============================================================
        APPENDIXES
        ============================================================ -->
-  <main class="view content page-content" data-section="appendixes" hidden>
-    <h1 class="entry-title">Appendixes</h1>
-    <p class="entry-source">Rules Reference v1.8</p>
-    <p class="entry-para">The Rules Reference includes six appendices covering setup, deck-building and reference material:</p>
+  <div class="view" data-section="appendixes" hidden>
 
-    <div class="appendix-list">
-      <div class="appendix-card">
-        <span class="appendix-num">I</span>
-        <div>
-          <h2 class="appendix-title">Deck Customization</h2>
-          <p class="appendix-page">Page 50</p>
-        </div>
-      </div>
-      <div class="appendix-card">
-        <span class="appendix-num">II</span>
-        <div>
-          <h2 class="appendix-title">Setup</h2>
-          <p class="appendix-page">Page 51</p>
-        </div>
-      </div>
-      <div class="appendix-card">
-        <span class="appendix-num">III</span>
-        <div>
-          <h2 class="appendix-title">Card Anatomy</h2>
-          <p class="appendix-page">Page 52</p>
-        </div>
-      </div>
-      <div class="appendix-card">
-        <span class="appendix-num">IV</span>
-        <div>
-          <h2 class="appendix-title">FAQ</h2>
-          <p class="appendix-page">Pages 57–62</p>
-        </div>
-      </div>
-      <div class="appendix-card">
-        <span class="appendix-num">V</span>
-        <div>
-          <h2 class="appendix-title">Errata</h2>
-          <p class="appendix-page">Pages 65–69</p>
-        </div>
-      </div>
-      <div class="appendix-card">
-        <span class="appendix-num">VI</span>
-        <div>
-          <h2 class="appendix-title">Game Environments (Beta)</h2>
-          <p class="appendix-page">Page 71</p>
-        </div>
+    <!-- Card index (shown at #appendixes) -->
+    <div id="appendixIndex" class="content page-content">
+      <h1 class="entry-title">Appendixes</h1>
+      <p class="entry-source">Rules Reference v1.8</p>
+      <p class="entry-para">Five appendices cover deck-building, setup and reference material. Select one to read it in full:</p>
+
+      <div class="appendix-list">
+        <a class="appendix-card" href="#appendixes/deck-customization">
+          <span class="appendix-num">I</span>
+          <div>
+            <h2 class="appendix-title">Deck Customization</h2>
+            <p class="appendix-page">Page 50</p>
+          </div>
+        </a>
+        <a class="appendix-card" href="#appendixes/setup">
+          <span class="appendix-num">II</span>
+          <div>
+            <h2 class="appendix-title">Setup</h2>
+            <p class="appendix-page">Page 51</p>
+          </div>
+        </a>
+        <a class="appendix-card" href="#appendixes/faq">
+          <span class="appendix-num">IV</span>
+          <div>
+            <h2 class="appendix-title">FAQ</h2>
+            <p class="appendix-page">Pages 57–64</p>
+          </div>
+        </a>
+        <a class="appendix-card" href="#appendixes/errata">
+          <span class="appendix-num">V</span>
+          <div>
+            <h2 class="appendix-title">Errata</h2>
+            <p class="appendix-page">Pages 65–70</p>
+          </div>
+        </a>
+        <a class="appendix-card" href="#appendixes/game-environments">
+          <span class="appendix-num">VI</span>
+          <div>
+            <h2 class="appendix-title">Game Environments (Beta)</h2>
+            <p class="appendix-page">Page 71</p>
+          </div>
+        </a>
       </div>
     </div>
 
-    <p class="muted appendix-note">Detailed appendix content can be added here later — the layout is ready to drop it in.</p>
-  </main>
+    <!-- Individual appendix content (shown at #appendixes/<id>) -->
+    <main id="appendixEntry" class="content page-content" aria-live="polite" hidden>
+      <!-- Rendered by app.js -->
+    </main>
+
+  </div>
 
   <!-- ===== App logic ===== -->
   <script src="app.js" defer></script>
