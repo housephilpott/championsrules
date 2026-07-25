@@ -225,6 +225,17 @@
     if (main) main.innerHTML = `<p class="error">${msg}</p>`;
   }
 
+  /* ---------- Service worker (offline support) ---------- */
+  function registerServiceWorker() {
+    if (!("serviceWorker" in navigator)) return;
+    // Register after load so it never competes with first paint / data fetch.
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("service-worker.js")
+        .catch(err => console.warn("Service worker registration failed:", err));
+    });
+  }
+
   /* ---------- Go ---------- */
   document.addEventListener("DOMContentLoaded", init);
+  registerServiceWorker();
 })();
