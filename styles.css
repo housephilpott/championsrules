@@ -1,24 +1,326 @@
+/* ============================================================
+   Champions Rules — styles.css
+   Mobile-first glossary UI for Rules Reference v1.8
+   Pairs with app.js (class hooks) and index.html
+   ============================================================ */
+
+/* ---------- Design tokens ---------- */
+:root {
+  /* Marvel Champions-inspired palette */
+  --bg:            #0f1420;   /* deep navy background */
+  --surface:       #171e2e;   /* panels / cards */
+  --surface-2:     #1f283b;   /* hover / raised */
+  --border:        #2a3550;
+  --text:          #e8ecf5;   /* primary text */
+  --text-muted:    #9aa6c0;   /* secondary text */
+  --accent:        #e23636;   /* Marvel red */
+  --accent-hover:  #ff4d4d;
+  --accent-soft:   rgba(226, 54, 54, 0.14);
+  --link:          #6ab0ff;   /* see-also links */
+  --focus:         #ffcf3f;   /* keyboard focus ring */
+  --radius:        10px;
+  --radius-sm:     6px;
+  --shadow:        0 6px 24px rgba(0, 0, 0, 0.35);
+  --maxw:          1180px;
+  --font:          "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Reset / base ---------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
 body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+  margin: 0;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- App header ---------- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: linear-gradient(180deg, #131a29 0%, #0f1420 100%);
+  border-bottom: 3px solid var(--accent);
+  padding: 0.85rem 1rem;
+  box-shadow: var(--shadow);
+}
+
+.app-header h1,
+.app-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.app-title span { color: var(--accent); }
+
+/* ---------- Layout ---------- */
+.layout {
+  display: block;                 /* mobile: stacked */
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/* ---------- Sidebar (search + index) ---------- */
+.sidebar {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.85rem;
+  margin-bottom: 1rem;
 }
 
 #search {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+#search::placeholder { color: var(--text-muted); }
+#search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+  outline: none;
 }
 
-.entry {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+/* Term list */
+#termList {
+  margin-top: 0.75rem;
+  max-height: 40vh;               /* mobile: scrollable panel */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.term {
-    font-size: 22px;
-    font-weight: bold;
+.term-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.55rem 0.7rem;
+  color: var(--text);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid transparent;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.term-link:hover {
+  background: var(--surface-2);
+  text-decoration: none;
+}
+.term-link.active {
+  background: var(--accent-soft);
+  border-left-color: var(--accent);
+  font-weight: 600;
+}
+
+.redirect-tag {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  flex: 0 0 auto;
+}
+
+/* ---------- Main entry ---------- */
+.content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.15rem 1.4rem;
+  min-height: 50vh;
+}
+
+.entry-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.55rem;
+  line-height: 1.2;
+  color: var(--text);
+}
+.entry-title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-top: 0.5rem;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.entry-source {
+  margin: 0.4rem 0 1.1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.entry-para {
+  margin: 0 0 0.9rem;
+}
+
+/* Lists */
+.entry-list {
+  margin: 0 0 1rem;
+  padding-left: 1.3rem;
+}
+.entry-list li { margin: 0.3rem 0; }
+
+/* Unordered = custom red marker */
+ul.entry-list { list-style: none; padding-left: 1.1rem; }
+ul.entry-list > li { position: relative; padding-left: 0.9rem; }
+ul.entry-list > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+/* Ordered lists keep numbers */
+ol.entry-list.ordered { list-style: decimal; }
+ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
+
+/* Nested lists sit slightly indented + muted */
+.entry-list .entry-list {
+  margin: 0.35rem 0 0.35rem;
+  border-left: 2px solid var(--border);
+  padding-left: 1rem;
+}
+.entry-list .entry-list li { color: var(--text-muted); }
+
+/* ---------- Redirect block (e.g. ATK -> Basic Power) ---------- */
+.redirect-block {
+  padding: 0.85rem 1rem;
+  background: var(--surface-2);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 1.05rem;
+}
+.redirect-block > span:first-child {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ---------- See also ---------- */
+.see-also {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.see-also h2 {
+  margin: 0 0 0.7rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.see-also-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.term-chip {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  color: var(--link);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.term-chip:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-hover);
+  text-decoration: none;
+}
+/* Pending = target not yet in glossary (non-clickable) */
+.term-chip.pending {
+  color: var(--text-muted);
+  border-style: dashed;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* ---------- Utility / states ---------- */
+.muted { color: var(--text-muted); font-size: 0.9rem; }
+.error {
+  padding: 1rem;
+  color: #ffd7d7;
+  background: rgba(226, 54, 54, 0.12);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Scrollbars (subtle) ---------- */
+#termList::-webkit-scrollbar { width: 8px; }
+#termList::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 8px;
+}
+
+/* ============================================================
+   Tablet / desktop: two-column layout
+   ============================================================ */
+@media (min-width: 760px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    align-items: start;
+    padding: 1.5rem;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 84px;                    /* clears sticky header */
+    margin-bottom: 0;
+  }
+
+  #termList {
+    max-height: calc(100vh - 220px);
+  }
+
+  .app-header { padding: 1rem 1.5rem; }
+  .app-header h1, .app-title { font-size: 1.35rem; }
+
+  .content { padding: 1.6rem 1.9rem 2rem; }
+  .entry-title { font-size: 1.9rem; }
+}
+
+@media (min-width: 1080px) {
+  .layout { grid-template-columns: 320px 1fr; }
+}
+
+/* ---------- Respect reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
 }
