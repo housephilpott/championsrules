@@ -1,26 +1,30 @@
 /* ============================================================
    Champions Rules — styles.css
-   Mobile-first glossary UI for Rules Reference v1.8
-   Pairs with app.js (class hooks) and index.html
+   Light theme matching the Rules Reference v1.8 PDF:
+   cream page, dark-orange border, black text, blue headings,
+   red links. Mobile-first, responsive.
    ============================================================ */
 
-/* ---------- Design tokens ---------- */
+/* ---------- Design tokens (sampled from the PDF) ---------- */
 :root {
-  /* Marvel Champions-inspired palette */
-  --bg:            #0f1420;   /* deep navy background */
-  --surface:       #171e2e;   /* panels / cards */
-  --surface-2:     #1f283b;   /* hover / raised */
-  --border:        #2a3550;
-  --text:          #e8ecf5;   /* primary text */
-  --text-muted:    #9aa6c0;   /* secondary text */
-  --accent:        #e23636;   /* Marvel red */
-  --accent-hover:  #ff4d4d;
-  --accent-soft:   rgba(226, 54, 54, 0.14);
-  --link:          #6ab0ff;   /* see-also links */
-  --focus:         #ffcf3f;   /* keyboard focus ring */
+  --bg:            #efe6de;   /* outer / border zone */
+  --page:          #f8f1ec;   /* cream page background */
+  --surface:       #fdfaf7;   /* cards / panels (slightly lighter) */
+  --surface-2:     #f3ebe4;   /* raised / hover */
+  --border:        #b94b2c;   /* dark orange border */
+  --border-soft:   #e0c9bd;   /* subtle inner dividers */
+  --text:          #231f20;   /* near-black body text */
+  --text-muted:    #77787b;   /* grey secondary text */
+  --heading:       #3f5c8c;   /* deep blue — titles/headings */
+  --heading-light: #5b7db4;   /* lighter blue — subheadings */
+  --link:          #ab1c1a;   /* red links */
+  --link-hover:    #d62b28;
+  --accent:        #b94b2c;   /* orange accent (borders/rules) */
+  --accent-soft:   rgba(185, 75, 44, 0.12);
+  --focus:         #3f5c8c;   /* blue keyboard focus ring */
   --radius:        10px;
   --radius-sm:     6px;
-  --shadow:        0 6px 24px rgba(0, 0, 0, 0.35);
+  --shadow:        0 4px 16px rgba(80, 50, 30, 0.12);
   --maxw:          1180px;
   --font:          "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
 }
@@ -40,10 +44,14 @@ body {
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+
+  /* Dark-orange page border, like the printed reference */
+  border: 6px solid var(--border);
+  min-height: 100vh;
 }
 
 a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
 
 :focus-visible {
   outline: 2px solid var(--focus);
@@ -59,7 +67,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  background: linear-gradient(180deg, #131a29 0%, #0f1420 100%);
+  background: var(--page);
   border-bottom: 3px solid var(--accent);
   padding: 0.85rem 1rem;
   box-shadow: var(--shadow);
@@ -72,7 +80,7 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--text);
+  color: var(--heading);
 }
 .app-title span { color: var(--accent); }
 .app-title a { color: inherit; text-decoration: none; }
@@ -87,7 +95,7 @@ a:hover { text-decoration: underline; }
   border-radius: var(--radius-sm);
   white-space: nowrap;
 }
-.back-home:hover { color: var(--accent-hover); text-decoration: none; }
+.back-home:hover { color: var(--link-hover); text-decoration: none; }
 .back-home[hidden] { display: none; }
 
 /* ---------- Layout ---------- */
@@ -102,7 +110,7 @@ a:hover { text-decoration: underline; }
 /* ---------- Sidebar (search + index) ---------- */
 .sidebar {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   padding: 0.85rem;
   margin-bottom: 1rem;
@@ -113,8 +121,8 @@ a:hover { text-decoration: underline; }
   padding: 0.7rem 0.9rem;
   font-size: 1rem;
   color: var(--text);
-  background: var(--bg);
-  border: 1px solid var(--border);
+  background: var(--page);
+  border: 1px solid var(--border-soft);
   border-radius: var(--radius-sm);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
@@ -144,28 +152,30 @@ a:hover { text-decoration: underline; }
   color: var(--text);
   border-radius: var(--radius-sm);
   border-left: 3px solid transparent;
-  transition: background 0.12s ease, border-color 0.12s ease;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
 }
 .term-link:hover {
   background: var(--surface-2);
+  color: var(--link);
   text-decoration: none;
 }
 .term-link.active {
   background: var(--accent-soft);
   border-left-color: var(--accent);
+  color: var(--heading);
   font-weight: 600;
 }
 
 .redirect-tag {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--link);
   flex: 0 0 auto;
 }
 
 /* ---------- Main entry ---------- */
 .content {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: var(--page);
+  border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   padding: 1.1rem 1.15rem 1.4rem;
   min-height: 50vh;
@@ -175,7 +185,7 @@ a:hover { text-decoration: underline; }
   margin: 0 0 0.25rem;
   font-size: 1.55rem;
   line-height: 1.2;
-  color: var(--text);
+  color: var(--heading);
 }
 .entry-title::after {
   content: "";
@@ -205,7 +215,7 @@ a:hover { text-decoration: underline; }
 }
 .entry-list li { margin: 0.3rem 0; }
 
-/* Unordered = custom red marker */
+/* Unordered = orange marker */
 ul.entry-list { list-style: none; padding-left: 1.1rem; }
 ul.entry-list > li { position: relative; padding-left: 0.9rem; }
 ul.entry-list > li::before {
@@ -226,7 +236,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 /* Nested lists sit slightly indented + muted */
 .entry-list .entry-list {
   margin: 0.35rem 0 0.35rem;
-  border-left: 2px solid var(--border);
+  border-left: 2px solid var(--border-soft);
   padding-left: 1rem;
 }
 .entry-list .entry-list li { color: var(--text-muted); }
@@ -235,7 +245,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 .redirect-block {
   padding: 0.85rem 1rem;
   background: var(--surface-2);
-  border: 1px dashed var(--border);
+  border: 1px dashed var(--accent);
   border-radius: var(--radius-sm);
   font-size: 1.05rem;
 }
@@ -248,14 +258,14 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 .see-also {
   margin-top: 1.4rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--border-soft);
 }
 .see-also h2 {
   margin: 0 0 0.7rem;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--heading-light);
 }
 .see-also-links {
   display: flex;
@@ -268,15 +278,15 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
   padding: 0.4rem 0.75rem;
   font-size: 0.9rem;
   color: var(--link);
-  background: var(--surface-2);
-  border: 1px solid var(--border);
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
   border-radius: 999px;
   transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
 }
 .term-chip:hover {
   background: var(--accent-soft);
   border-color: var(--accent);
-  color: var(--accent-hover);
+  color: var(--link-hover);
   text-decoration: none;
 }
 /* Pending = target not yet in glossary (non-clickable) */
@@ -291,16 +301,16 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 .muted { color: var(--text-muted); font-size: 0.9rem; }
 .error {
   padding: 1rem;
-  color: #ffd7d7;
-  background: rgba(226, 54, 54, 0.12);
-  border: 1px solid var(--accent);
+  color: #7a1210;
+  background: rgba(171, 28, 26, 0.1);
+  border: 1px solid var(--link);
   border-radius: var(--radius-sm);
 }
 
 /* ---------- Scrollbars (subtle) ---------- */
 #termList::-webkit-scrollbar { width: 8px; }
 #termList::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: var(--border-soft);
   border-radius: 8px;
 }
 
@@ -336,7 +346,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
   display: block;
   padding: 1.1rem 1.2rem;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-soft);
   border-left: 4px solid var(--accent);
   border-radius: var(--radius);
   color: var(--text);
@@ -344,7 +354,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 }
 .home-btn:hover {
   background: var(--surface-2);
-  border-left-color: var(--accent-hover);
+  border-left-color: var(--link-hover);
   box-shadow: var(--shadow);
   text-decoration: none;
   transform: translateY(-2px);
@@ -355,6 +365,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
   margin: 0.35rem 0 0.15rem;
   font-size: 1.2rem;
   font-weight: 700;
+  color: var(--heading);
 }
 .home-btn-sub {
   display: block;
@@ -372,7 +383,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 .section-heading {
   margin: 1.6rem 0 0.6rem;
   font-size: 1.15rem;
-  color: var(--text);
+  color: var(--heading-light);
   padding-left: 0.6rem;
   border-left: 3px solid var(--accent);
 }
@@ -389,8 +400,8 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
   align-items: center;
   gap: 0.9rem;
   padding: 0.85rem 1rem;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
   border-radius: var(--radius-sm);
 }
 .appendix-num {
@@ -405,7 +416,7 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
   border-radius: 50%;
   font-size: 0.95rem;
 }
-.appendix-title { margin: 0; font-size: 1.05rem; }
+.appendix-title { margin: 0; font-size: 1.05rem; color: var(--heading); }
 .appendix-page { margin: 0.1rem 0 0; color: var(--text-muted); font-size: 0.85rem; }
 .appendix-note { margin-top: 1.2rem; font-style: italic; }
 
