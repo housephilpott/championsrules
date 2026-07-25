@@ -5,7 +5,7 @@
    clients pick up the new assets.
    ============================================================ */
 
-const CACHE_VERSION = "champions-rules-v3";
+const CACHE_VERSION = "champions-rules-v5";
 const CACHE_NAME = CACHE_VERSION;
 
 /* Files that make up the app shell. Paths are relative to the
@@ -16,6 +16,7 @@ const APP_SHELL = [
   "./styles.css",
   "./app.js",
   "./glossary.json",
+  "./appendices.json",
   "./assets/manifest.json",
   "./assets/favicon.ico",
   "./assets/favicon-16.png",
