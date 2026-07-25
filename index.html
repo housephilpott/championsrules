@@ -1,22 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Marvel Champions Rules</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Searchable glossary for the Marvel Champions Rules Reference v1.8." />
+  <meta name="theme-color" content="#0f1420" />
+  <title>Champions Rules — Reference Glossary</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <h1>Marvel Champions Rules</h1>
+  <!-- ===== App header ===== -->
+  <header class="app-header">
+    <h1 class="app-title">Champions <span>Rules</span></h1>
+  </header>
 
-    <input
-        type="text"
+  <!-- ===== Main layout ===== -->
+  <div class="layout">
+
+    <!-- Sidebar: search + term index -->
+    <aside class="sidebar" aria-label="Glossary navigation">
+      <label for="search" class="visually-hidden">Search terms</label>
+      <input
         id="search"
-        placeholder="Search terms..."
-    >
+        type="search"
+        placeholder="Search terms…"
+        autocomplete="off"
+        spellcheck="false"
+        aria-controls="termList"
+      />
+      <nav id="termList" aria-label="Glossary terms">
+        <!-- Term links injected by app.js -->
+      </nav>
+    </aside>
 
-    <div id="results"></div>
+    <!-- Main entry content -->
+    <main id="entry" class="content" aria-live="polite">
+      <!-- Selected entry injected by app.js -->
+    </main>
 
-    <script src="app.js"></script>
+  </div>
+
+  <!-- ===== App logic ===== -->
+  <script src="app.js" defer></script>
+
+  <!-- Minimal visually-hidden helper (kept inline so it can't be missed) -->
+  <style>
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0 0 0 0);
+      white-space: nowrap; border: 0;
+    }
+  </style>
 
 </body>
 </html>
