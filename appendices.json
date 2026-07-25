@@ -1,0 +1,3125 @@
+[
+  {
+    "id": "deck-customization",
+    "num": "I",
+    "title": "Deck Customization",
+    "page": 50,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "PLAYER DECKS"
+      },
+      {
+        "type": "paragraph",
+        "text": "The deck customization rules for player decks are:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "A player must choose exactly one identity card."
+          },
+          {
+            "text": "A player’s deck consists of a minimum of 40 cards and a maximum of 50 cards. The identity card and any cards with the permanent keyword are not counted as part of this number."
+          },
+          {
+            "text": "A player’s deck must include each of the identity- specific cards associated with their chosen identity card. The exact quantity of each card included in that identity set must be included in the deck.",
+            "children": [
+              {
+                "text": "If a player’s deck includes an identity-specific card that is considered to “match” (according to the rules for uniqueness; see Unique Icon) an identity chosen by another player during setup, that player may replace the matching card in their deck with a card with the Team-Up keyword that names both their own identity and the other player’s identity."
+              }
+            ]
+          },
+          {
+            "text": "A player may choose exactly one aspect (Justice, Aggression, Protection, or Leadership) to use for customization. The remainder of their deck is then customized with cards that belong to that aspect and/ or basic cards."
+          },
+          {
+            "text": "No more than three copies (by title) of each non- unique card may be included in the deck."
+          },
+          {
+            "text": "A player deck cannot include multiple cards that are considered to “match” under the rules for uniqueness (see Unique Icon). The identity is included in this evaluation."
+          },
+          {
+            "text": "Any “deckbuilding requirements” on the player’s identity card must be followed."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "ENCOUNTER DECKS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Each scenario comes with a recommended list of card sets that form the default encounter deck for that scenario. (For the core set scenarios, these lists are on page 23 of the Learn to Play.) This recommended list can be modified in a few different ways:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "Expert mode is an option that can be used to increase the difficulty of a scenario. Expert mode uses a different combination of villain stages and adds the expert encounter set to the encounter deck."
+          },
+          {
+            "text": "Most scenarios (including all of the scenarios in the core set) include a modular encounter set within their recommended list. To customize a scenario for a different experience, remove the modular encounter set from the list, and add any other modular encounter set as desired."
+          },
+          {
+            "text": "It is possible to add multiple modular sets to a scenario, but this will dilute the encounter deck if too many are added."
+          },
+          {
+            "text": "To add an additional element of uncertainty to a scenario, the modular set may be chosen from a group of facedown sets, and shuffled directly into the encounter deck without looking at the cards."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "setup",
+    "num": "II",
+    "title": "Setup",
+    "page": 51,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "To set up a game, perform the following steps in order:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          {
+            "text": "Select Identities. Each player selects one identity, placing their alter-ego side face up."
+          },
+          {
+            "text": "Set Hit Points. Each player sets their hit point dial equal to the starting hit points of their character, found at the bottom of their identity card."
+          },
+          {
+            "text": "Select First Player. As a group, the players select a first player and place the first player token in front of that player."
+          },
+          {
+            "text": "Set Aside Obligations. For each identity being played, set aside their obligation card."
+          },
+          {
+            "text": "Set Aside Nemesis Sets. For each identity being played, set aside their nemesis and the encounter cards of that nemesis."
+          },
+          {
+            "text": "Shuffle Player Decks. Each player shuffles their player deck."
+          },
+          {
+            "text": "Collect Tokens and Status Cards. Collect a pool of damage tokens, threat tokens, acceleration tokens, and all-purpose counters within reach of each player. Place stacks of stunned, confused, and tough status cards near this pool."
+          },
+          {
+            "text": "Select Scenario. Select a scenario and put its villain deck and main scheme deck into play near the center of the play area."
+          },
+          {
+            "text": "Set the Villain’s Hit Points. Set the villain’s hit point dial to the value indicated by the villain card."
+          },
+          {
+            "text": "Create the Encounter Deck. Shuffle the encounter sets listed on side 1A of the main scheme card with the obligation cards set aside during setup step four to create the encounter deck."
+          },
+          {
+            "text": "Put Setup Cards Into Play. Search each deck and the set aside area for any cards with the setup keyword and put them into play."
+          },
+          {
+            "text": "Resolve Scenario Setup and When Revealed Abilities. a. Resolve any “Setup” abilities on main scheme card 1A. b. Flip the main scheme card to side 1B and resolve any “When Revealed” abilities on that side. c. Resolve any “Setup” and “When Revealed” abilities on the villain."
+          },
+          {
+            "text": "Campaign Setup. If playing in campaign mode, resolve the Setup campaign instructions listed for the scenario in its associated rulebook."
+          },
+          {
+            "text": "Draw Cards. Each player draws cards from their deck until they have cards equal in number to their hand size (including modifiers), as listed near the bottom of their identity card."
+          },
+          {
+            "text": "Resolve Mulligans. Each player may discard any number of cards from hand, and then draw up to their starting hand size. (Do not shuffle these discarded cards back into their decks at this time.)"
+          },
+          {
+            "text": "Resolve Player Setup Abilities. Resolve any “Setup” abilities on player cards in play."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The game is now ready to begin."
+      }
+    ]
+  },
+  {
+    "id": "faq",
+    "num": "IV",
+    "title": "FAQ",
+    "page": 57,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "GENERAL QUESTIONS"
+      },
+      {
+        "type": "question",
+        "text": "If my hero has a tough status card and I am dealt damage, can I use an interrupt ability to reduce or prevent that damage in order to keep the tough status card?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Status cards have priority over all triggered abilities, like interrupts, so the tough status card must be discarded to prevent all of the damage before any other abilities could trigger."
+      },
+      {
+        "type": "paragraph",
+        "text": "A hero can keep their tough status card if:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          {
+            "text": "A constant effect reduces the damage the hero takes to zero. This is because constant effects have priority over status cards."
+          },
+          {
+            "text": "The hero makes a basic defense and their DEF reduces the damage dealt by the attacking enemy’s ATK to zero. This is because a basic defense reduces the amount of damage dealt by the attacker, rather than the amount of damage taken by the defender."
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "text": "If my ally with a tough status card takes overkill damage, does the excess damage get dealt to my identity?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Only excess damage “taken” by the ally gets dealt to the identity by the overkill keyword, and a tough status card prevents the character from “taking” any damage."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CORE SET"
+      },
+      {
+        "type": "question",
+        "text": "In the Core Set, there are 19 Aggression, Justice, and Protection aspect cards, but only 18 Leadership aspect cards. Is this correct?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The Leadership aspect received 1 fewer card than the other aspects because it has more unique cards to choose from."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SPIDER-MAN (#1A)"
+      },
+      {
+        "type": "question",
+        "text": "When does the villain “initiate” an attack against Spider-Man?"
+      },
+      {
+        "type": "paragraph",
+        "text": "An attack is “initiated” the moment the game determines an attack will be made against a character. This includes attacks made from game steps (such as step 2 of the villain phase) and card abilities (such as an attack initiated by the “Assault” treachery). Spider Man’s ability resolves before any of the steps of the process detailed in the “Attack (Enemy Activation)” section are performed."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WEBBED UP (#9)"
+      },
+      {
+        "type": "question",
+        "text": "How many attacks does Webbed Up prevent?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two attacks in total. Webbed Up prevents the attached enemy’s very next attack by replacing that attack with the placement of a stun status card. Then, the stun status card will prevent that enemy’s following attack."
+      },
+      {
+        "type": "question",
+        "text": "Does Webbed Up prevent Spider-Sense from triggering?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Webbed Up’s ability is a replacement effect (indicated by the word “instead”), meaning the attack never initiates."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JENNIFER WALTERS (#19B)"
+      },
+      {
+        "type": "question",
+        "text": "Can Jennifer Walters remove threat from a side scheme as it enters play?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Side schemes enter play with threat already on them, meaning threat is not “placed” at this point."
+      },
+      {
+        "type": "question",
+        "text": "If threat is placed on a scheme during game setup, does Jennifer Walters’s ability trigger?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Abilities that do not have the “Setup” timing trigger cannot resolve during game setup."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LEGAL PRACTICE (#23)"
+      },
+      {
+        "type": "question",
+        "text": "Can Legal Practice remove threat from multiple schemes simultaneously?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. All of the threat removed by Legal Practice must be removed from a single scheme."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FOCUSED RAGE (#27)"
+      },
+      {
+        "type": "question",
+        "text": "If She-Hulk has a tough status card, can she use Focused Rage to draw a card?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. The tough status card prevents She-Hulk from “tak[ing] 1 damage,” so the ability’s cost cannot be paid. Because you cannot partially pay a cost, you cannot attempt to pay the cost of Focused Rage’s ability just to remove She-Hulk’s tough status card."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUPERHUMAN STRENGTH (#28)"
+      },
+      {
+        "type": "question",
+        "text": "If She-Hulk attacks an enemy that cannot be stunned because it is already stunned or is stalwart, does Superhuman Strength’s Forced Interrupt resolve?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Because the effect of Superhuman Strength’s Forced Interrupt cannot affect the attacked enemy, the effect cannot resolve and Superhuman Strength is not discarded."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "REPULSOR BLAST (#31)"
+      },
+      {
+        "type": "question",
+        "text": "Can Repulsor Blast’s first point of damage remove a tough status card from an enemy, then its additional damage deal damage to that enemy?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. The additional damage that Repulsor Blast deals is a simultaneous modification of its first point of damage. For instance, if a player were to discard 2 energy resources due to Repulsor Blast, they would deal a total of 5 damage to an enemy all at once, as the additional 4 damage dealt by the discard effect happens at the same time as the first point of damage."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PEPPER POTTS (#33)"
+      },
+      {
+        "type": "question",
+        "text": "Does Pepper Potts generate 2 resources if a card with 2 printed resources (such as Energy, Genius, or Strength) is on top of the discard pile?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Pepper Potts generates a number of resources that are equal in quantity and type to the resources on the top card of the discard pile."
+      },
+      {
+        "type": "question",
+        "text": "Will Pepper Potts generate 2 resources if a “The Power of [Aspect]” resource card (such as The Power of Aggression) is on top of the discard pile?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Though the resources that Pepper Potts generates are equal in quantity and type to the resources of the top card of the discard pile, Pepper Potts is the card that is generating these resources. This means that a The Power of [Aspect] card never generates resources itself, having no opportunity to generate additional resources for a card of its specified aspect."
+      },
+      {
+        "type": "question",
+        "text": "Can Pepper Potts generate the resources of a card that is currently being spent?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Resources are generated simultaneously, meaning the spent card will not be on top of the discard pile at the time Pepper Potts uses her ability."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ROCKET BOOTS (#39)"
+      },
+      {
+        "type": "question",
+        "text": "If Iron Man has 1 hit point remaining and his Rocket Boots upgrade is discarded from play, is Iron Man defeated?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. If an ability that modifies hit points expires or otherwise becomes inactive, the modified hit points revert to the value they would be without the modifier. In this case, Iron Man’s hit points would revert to 0, instantly defeating him."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BLACK PANTHER (#40A)"
+      },
+      {
+        "type": "question",
+        "text": "If an enemy initiates an attack against Black Panther but another hero or an ally defends against that attack, will Black Panther’s retaliate ability trigger?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Black Panther himself must be attacked for retaliate to trigger."
+      },
+      {
+        "type": "question",
+        "text": "If Black Panther defends against an attack, will his retaliate ability trigger?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. As long as Black Panther himself is attacked, retaliate will trigger."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ANCESTRAL KNOWLEDGE (#42)"
+      },
+      {
+        "type": "question",
+        "text": "Can Ancestral Knowledge shuffle different versions of Wakanda Forever into Black Panther’s deck?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Cards with the same title are considered to be the same card for the purpose of card abilities."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VIBRANIUM SUIT (#49)"
+      },
+      {
+        "type": "question",
+        "text": "Does moving damage discard tough status cards from the target enemy?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. If damage is moved to a character, the moved damage is considered to be dealt to that character."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TIGRA/GREER GRANT NELSON (#51)"
+      },
+      {
+        "type": "question",
+        "text": "Does Tigra’s “Response” ability trigger before or after she takes consequential damage?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before. The “After Tigra attacks and defeats a minion...” condition is checked immediately after Tigra defeats a minion with her attack power, but before consequential damage is applied to her."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MAKE THE CALL (#71)"
+      },
+      {
+        "type": "question",
+        "text": "When playing Make the Call, do “The Power of [Aspect]” resource cards (such as The Power of Leadership) generate 1 resource or 2 resources?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Make the Call’s text states “Action: Pay the printed cost of an ally in any player’s discard pile...”, meaning the player is paying the cost of the ally itself. If that ally’s aspect matches that of The Power of [Aspect] card, then The Power of [Aspect] card will generate 2 resources. However, if that ally’s aspect does not match, The Power of [Aspect] card will only generate 1 resource."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WHIRLWIND (#130)"
+      },
+      {
+        "type": "question",
+        "text": "How is Whirlwind’s attack against each hero resolved?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Whirlwind makes a separate attack against each hero and these attacks are resolved simultaneously. Each player resolves each step of the attack simultaneously. Each attack may have a defender declared, and each defender defends for a single player."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ULTRON II (#135)"
+      },
+      {
+        "type": "question",
+        "text": "If Ultron’s attack is defended by a player other than the one who was attacked, does Ultron get +1 ATK for each Drone minion engaged with the defending player or the player Ultron initiated the attack against?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ultron’s ability has already resolved before defenders are declared, creating a lasting effect that refers to the original target of the attack. The bonus to Ultron’s ATK is based on the number of Drone minions engaged with the player Ultron initiated the attack against. If the number of Drone minions engaged with that player changes, the bonus changes as well."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ASSAULT (#197)"
+      },
+      {
+        "type": "question",
+        "text": "If Assault causes the villain to attack me and there is only one card left in the encounter deck, is Assault in the encounter discard pile when the discard pile is shuffled into the encounter deck after the villain is given a boost card?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Assault is not discarded until it finishes resolving, which happens when the villain’s attack has been resolved."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "GREEN GOBLIN SCENARIO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NORMAN OSBORN (#1A)"
+      },
+      {
+        "type": "question",
+        "text": "Will a stun status card prevent Norman Osborn’s attack activation?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Because status cards take priority over all other abilities, a stun status card will prevent Norman Osborn’s activation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "GREEN GOBLIN (#1B)"
+      },
+      {
+        "type": "question",
+        "text": "While Green Goblin is attacking, if the last madness counter is removed from the State of Madness environment through a “Boost” ability, what happens?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Green Goblin immediate flips to Norman Osborn form. Boost icons from the boost card are then added to Norman Osborn’s ATK value of , which is treated as a value of 0. Norman Osborn then deals damage from the attack equal to his modified ATK value (base of 0 ATK, plus the number of boost icons on the boost card). In this specific situation, Norman Osborn’s “Forced Interrupt” does not trigger,"
+      },
+      {
+        "type": "paragraph",
+        "text": "as the attack is already past the point of “When Norman Osborn would attack...” by the time he changes to his Norman Osborn form."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "I SEE YOU (#30)"
+      },
+      {
+        "type": "question",
+        "text": "If I’m in alter-ego form and I reveal “I See You”, does Green Goblin attack me?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Because the “When Revealed” ability on I See You"
+      },
+      {
+        "type": "paragraph",
+        "text": "does not specify hero form or alter-ego form, Green Goblin will attack the player no matter their form."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CAPTAIN AMERICA HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "STEVE ROGERS (#1B)"
+      },
+      {
+        "type": "question",
+        "text": "If Captain America’s Shield is put into play as a Drone minion during game setup for Ultron, can I retrieve it with Steve Rogers’s Setup ability?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. The Setup ability specifically searches the player’s deck and discard pile. If Captain America’s Shield is not in either game area, the ability fails to find it."
+      },
+      {
+        "type": "question",
+        "text": "If an ally is played while I’m Captain America, then I change form to Steve Rogers, will Steve Rogers’s “Living Legend” ability still apply to the next ally played?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Living Legend only applies to the very first ally played each round."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MS. MARVEL HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "EMBIGGEN (#10)"
+      },
+      {
+        "type": "question",
+        "text": "If an Attack event deals multiple sources of damage (such as the Aggression event, Melee), how does Embiggen work?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Embiggen increases all instances of damage that an Attack event deals by 2. For example, if an event were to deal 3 damage, then deal 3 damage again, that event would now deal 5 damage, then 5 damage again."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SHRINK (#11)"
+      },
+      {
+        "type": "question",
+        "text": "When playing Emergency, can I exhaust Shrink to remove 2 threat from a scheme?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Shrink increases each instance of threat removed by a thwart event. Because Emergency only prevents threat and does not remove any, Shrink will have no effect."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "NOVA/SAM ALEXANDER (#12)"
+      },
+      {
+        "type": "question",
+        "text": "If Nova’s ability defeats an attacking enemy, does that enemy’s attack still deal damage?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Although the attack sequence has initiated, damage from that attack has not yet been calculated. If Nova defeats the enemy during this step, the rest of the attack sequence fails to resolve."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MELEE (#30)"
+      },
+      {
+        "type": "question",
+        "text": "Can Melee deal damage to the same enemy twice?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. When Melee deals damage a second time, that damage must be dealt to an enemy that is different from the first. Note that different stages of the villain are considered to be the same enemy."
+      },
+      {
+        "type": "question",
+        "text": "If I’m engaged with a minion with guard, can I target that minion and the villain, as long as the minion would be destroyed by the damage done by Melee?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes, as long as you defeat the minion with the first sentence of the ability on Melee, you may deal damage to the villain with the second sentence of the ability."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "THOR HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JARNBJORN (#19)"
+      },
+      {
+        "type": "question",
+        "text": "Can I trigger Jarnbjorn after I play an Attack event?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. A hero is considered to make an attack both through their basic attack power and actions with the (attack) label."
+      },
+      {
+        "type": "question",
+        "text": "If an Attack event damages multiple enemies, can Jarnbjorn be triggered for each one?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Each enemy that is dealt damage by an Attack event is considered to have been attacked."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "BLACK WIDOW HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DANCE OF DEATH (#4)"
+      },
+      {
+        "type": "question",
+        "text": "Dance of Death does not contain the (attack) label. Are each of its damage-dealing effects actually considered attacks or is this a mistake?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first sentence of Dance of Death’s ability defines each damage-dealing effect from Dance of Death as an individual attack. Resolve each as a normal attack, one at a time."
+      },
+      {
+        "type": "question",
+        "text": "If Black Widow is stunned, will each attack from Dance of Death be prevented, or just the first attack?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because Dance of Death creates three separate attacks, a stun status card on Black Widow will only prevent the first attack. The second and third attack can be performed as normal."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ATTACROBATICS (#6)"
+      },
+      {
+        "type": "question",
+        "text": "Can Attacrobatics cancel 0 boost icons?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Attacrobatics cannot be used to cancel the boost icons on a card that has none as there is no valid target for the ability."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WIDOW’S BITE (#10)"
+      },
+      {
+        "type": "question",
+        "text": "If I have Widow’s Bite in play and I reveal a minion with quickstrike, which resolves first?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Quickstrike triggers when a minion engages a player and minions enter play engaged with the player who revealed them, thus Quickstrike and the “Response” on Widow’s Bite"
+      },
+      {
+        "type": "paragraph",
+        "text": "have the same timing trigger. Keywords have timing priority over “Response” abilities, so Quickstrike resolves first."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "DOCTOR STRANGE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE NIGHT NURSE (#19)"
+      },
+      {
+        "type": "question",
+        "text": "If the only status card on a hero is a tough status card, is it discarded if I use The Night Nurse to heal that hero?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The Night Nurse’s ability discards 1 status card from that hero, no matter the type."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "UNFLAPPABLE (#20)"
+      },
+      {
+        "type": "question",
+        "text": "If while defending against an enemy attack, my identity takes damage from a “Boost” ability but takes no damage from the attacking enemy otherwise, can I still trigger Unflappable to draw a card?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The cost of the ability on Unflappable only requires that the defending identity take no damage during step 4 of the enemy attack."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "COUNTERSPELL (#30)"
+      },
+      {
+        "type": "question",
+        "text": "Counterspell says “Attach to your hero.” If I draw Counterspell while in alter-ego form, what happens?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Counterspell attempts to attach to your hero but cannot. Because it is unable to meet its condition, simply discard it. (Do not reveal a new encounter card in its place.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "IMAGES OF IKONN (#33)"
+      },
+      {
+        "type": "question",
+        "text": "Can I resolve Images of Ikonn if the villain is already confused and there is no threat on a scheme?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. As long as any part of the ability on Images of Ikonn has a valid target, then it will do as many effects as it is able. While its first effect may not have a valid target if the villain is already confused and there is no threat on a scheme, its second effect always has a valid target (the card itself)."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "HULK HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CRUSHING BLOW (#2)"
+      },
+      {
+        "type": "question",
+        "text": "If Crushing Blow’s resource cost is reduced to 0, can it be played without spend resources?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The “You can only spend resources to pay for this card” ability on Crushing Blow only applies when actual resources are being spent to pay for its resource cost. If its resource cost is reduced to 0, no resources are required to pay for Crushing Blow, so no resources must be spent."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "UNSTOPPABLE FORCE (#6)"
+      },
+      {
+        "type": "question",
+        "text": "If Unstoppable Force’s resource cost is reduced to 0, will I draw 1 card from its second ability?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Because no resources were spent to pay for Unstoppable Force’s resource cost, its “If you paid for this ability using only resources...” condition was not fulfilled, so that effect will not resolve."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CLASH OF TITANS (#28)"
+      },
+      {
+        "type": "question",
+        "text": "If my highest-ATK character is an ally, and the attack from Clash of Titans is undefended, which takes the damage: my identity or the ally that was attacked?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The ally will take all damage from the undefended attack."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "RISE OF RED SKULL EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HAWKEYE’S QUIVER (#3)"
+      },
+      {
+        "type": "question",
+        "text": "After using Hawkeye’s Quiver to search the top 5 cards of my deck, what should I do with those cards?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Shuffle those cards back into Hawkeye’s deck. After a search ability is completed—no matter if that ability searches the whole deck or only a portion of the deck—the entire deck is shuffled."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MARKED FOR DEATH (#28)"
+      },
+      {
+        "type": "question",
+        "text": "When Marked for Death is revealed, if a copy of Mockingbird is already under a player’s control who is not Clint Barton, what happens?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Clint Barton player can tuck their copy of Mockingbird under this scheme even if there is another copy of Mockingbird in play because tucked cards are not considered to be in play."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JESSICA DREW (#31B)"
+      },
+      {
+        "type": "question",
+        "text": "Does Jessica Drew’s Double Agent ability require her deck to be built with two aspects?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. An equal number of cards from two different aspects must be included in her deck."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FINESSE (#33)"
+      },
+      {
+        "type": "question",
+        "text": "Can Finesse generate a resource to pay for an aspect card’s ability (such as Jarnbjorn)?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. As long as the resource generated by Finesse is spent on an aspect card (its resource cost or a cost within that aspect card’s ability), Finesse can be used."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "THE ONCE AND FUTURE KANG SCENARIO PACK"
+      },
+      {
+        "type": "question",
+        "text": "While the players are split into separate game areas, whose game area are environment cards considered to be in?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Environment cards are considered to be in all players’ game areas."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DEPOWERED (#20)"
+      },
+      {
+        "type": "question",
+        "text": "If Depowered is in Doctor Strange’s play area, can the Doctor Strange player still use the Invocation deck?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The abilities on cards in the Invocation deck are merely resolved, not played."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WASP HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WASP (#1C)"
+      },
+      {
+        "type": "question",
+        "text": "While Wasp is in Giant hero form, how does her first ability interact the patrol keyword and the crisis icon?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wasp’s first ability allows her basic thwart to simultaneously remove threat from each scheme that Wasp chooses. Wasp cannot choose the main scheme as a target while she is engaged with a minion with the patrol keyword or there is a card with a crisis icon in play. Due to the simultaneous nature of this ability, this applies even if the card with the patrol keyword or crisis icon is removed from play during her basic thwart’s resolution."
+      },
+      {
+        "type": "question",
+        "text": "While Wasp is in Giant hero form, how does her second ability interact with the guard keyword?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wasp’s second ability allows her basic attack to simultaneously damage each enemy that Wasp chooses. Wasp cannot choose the villain as a target while she is engaged with a minion with the guard keyword. Due to the simultaneous nature of this ability, this applies even if the card with the guard keyword is removed from play during her basic attack’s resolution."
+      },
+      {
+        "type": "question",
+        "text": "While Wasp is in Giant hero form, how does her second ability interact with multiple enemies who have the retaliate keyword?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wasp is considered to attack each target affected by her divided basic attack. If Wasp’s basic attack is divided among multiple enemies with the retaliate keyword, each instance of retaliate will damage Wasp (in the order of her choice)."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "QUICKSILVER HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "QUICKSILVER (#1A)"
+      },
+      {
+        "type": "question",
+        "text": "If Quicksilver attempts to make a basic attack or basic thwart while stunned or confused, can his Super Speed ability trigger?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Stunned and confused status cards replace the usage of the basic power with their removal. If Quicksilver makes a basic attack while stunned or a basic thwart while confused, he is not considered to have used a basic power and the condition of his Super Speed ability is not met."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SCARLET WITCH HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HEX BOLT (#4)"
+      },
+      {
+        "type": "question",
+        "text": "For the second sentence of Hex Bolt, do the bulleted abilities resolve each time a card is discarded from the encounter deck, or do the bulleted abilities resolve after all 3 cards have been discarded?"
+      },
+      {
+        "type": "paragraph",
+        "text": "As Hex Bolt does not contain an alteration effect, resolve the first sentence of Hex Bolt entirely, without interruption. Then, determine and resolve the appropriate bulleted abilities based off of what was discarded."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SLIPPING SANITY (#23)"
+      },
+      {
+        "type": "question",
+        "text": "Is it intentional that Scarlet Witch has two obligation cards?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Scarlet Witch’s powers are chaotic, often working in her favor, though also sometimes working against her. While she has many cards within her personal set that represent the positive facets of her powers, having multiple obligations represents the negative facets."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "GALAXY’S MOST WANTED EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MODULAR ENCOUNTER SETS"
+      },
+      {
+        "type": "question",
+        "text": "In the Galaxy’s Most Wanted Expansion, which sets are considered modular encounter sets?"
+      },
+      {
+        "type": "paragraph",
+        "text": "If an encounter set is not scenario-specific (containing the name of that scenario in its encounter set name area) or campaign-specific (containing the word “Campaign” in its encounter set name area), then it is modular. The eight modular encounter sets in the Galaxy’s Most Wanted Expansion are: Badoon Headhunter, Band of Badoon, Galactic Artifacts, Kree Militants, Menagerie Medley, Power Stone, Space Pirates, and Ship Command."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CAMPAIGN MODE"
+      },
+      {
+        "type": "question",
+        "text": "Do I have to play in expert mode for each scenario in an expert campaign?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Increasing a campaign’s difficulty merely adds additional cards or setup instructions to each scenario in that campaign. It does not lock players into any other mode of play. For each scenario within a campaign, players are encouraged to choose the other modes of play that are right for them."
+      },
+      {
+        "type": "question",
+        "text": "If I play one scenario in expert mode, do I have to play the next scenario using the same mode?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. The players may, for instance, play one scenario of the campaign using a combination of standard, heroic, and skirmish modes, then play the next scenario of the campaign using simply expert mode. Players can mix and match modes as they see fit between each scenario in a campaign."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ROCKET RACCOON (#29A)"
+      },
+      {
+        "type": "question",
+        "text": "If Rocket Raccoon uses his “Tinkering” ability but the Tech upgrade is not placed into a discard pile (such as due to Collector’s ability), will Rocket Raccoon draw 2 cards?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Discarding is the act of attempting to place a card into a discard pile. Even if the Tech upgrade ends up in a different game area, the cost of Rocket Raccoon’s “Tinkering” ability was still paid."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SALVAGE (#33)"
+      },
+      {
+        "type": "question",
+        "text": "If the Hulk ally (Core Set #50) discards Salvage, what happens?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hulk’s ability checks all printed resources on Salvage simultaneously, then resolves the appropriate effect based on the result. Because this check and resolution is simultaneous, the player who controls Hulk chooses the order in which the effects resolve."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BATTERY PACK (#34)"
+      },
+      {
+        "type": "question",
+        "text": "Can Battery Pack move a charge counter to a Tech card that does not use “charge counters”?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The card that an all-purpose counter is on defines the type of that counter, so Battery Pack can move a counter to any Tech card and that counter will take on the type defined by that card (if any)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "POWER STONE (#149)"
+      },
+      {
+        "type": "question",
+        "text": "If an identity who controls the Power Stone is defeated, what happens to the Power Stone?"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a player is eliminated from the game while a permanent attachment is in their play area, they resolve the “attach to” text of that attachment. In this case, the Power Stone would be attached to the villain."
+      },
+      {
+        "type": "question",
+        "text": "If a character with the Power Stone is dealt 3 or more damage but does not take 3 or more damage due to damage prevention, does the attacker get the Power Stone attached to them?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Damage prevention does not reduce the amount of damage dealt. Note that a hero making a basic defense reduces the amount of damage dealt by that hero’s DEF, so defending an attack can prevent the Power Stone from being taken."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "STAR-LORD HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "STAR-LORD (#1A)"
+      },
+      {
+        "type": "question",
+        "text": "If I play an ally that does not have the printed Guardian trait while in hero form, can I trigger the response on Knowhere (#22)?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Star-Lord’s constant ability grants each ally his player controls the Guardian trait. Constant abilities have priority over triggered abilities like Knowhere’s “Response” ability,"
+      },
+      {
+        "type": "paragraph",
+        "text": "so the newly-played ally will have the Guardian trait before Knowhere triggers."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MISTER KNIFE (#26)"
+      },
+      {
+        "type": "question",
+        "text": "When Mister Knife is revealed by Shadow of the Past, does Shadow of the Past gain surge if it was the first treachery revealed by the Star-Lord player that phase?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Mister Knife was not in play when Shadow of the Past was revealed, so his ability does not cause Shadow of the Past to gain surge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DIVE BOMB (#28)"
+      },
+      {
+        "type": "question",
+        "text": "Can I play Dive Bomb if I am engaged with a minion with the guard keyword? If so, how would it resolve?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Abilities are resolved one sentence at a time, so “[d]eal 7 damage to an enemy” would resolve first. If that damage defeated the guard minion, the second effect, “[d]eal 1 damage to each other enemy” would deal 1 damage to the villain. If the first sentence did not defeat the guard minion, the second sentence would deal 1 damage to each enemy other than the villain and the enemy dealt damage by the first sentence."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "VENOM HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "GRASPING TENDRILS (#3)"
+      },
+      {
+        "type": "question",
+        "text": "If I cancel an attack with Grasping Tendrils, is my hero considered to have defended that attack?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes, because Grasping Tendrils is labeled as a defense, your hero is considered to have defended the attack."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MAD TITAN’S SHADOW EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SCENARIO #2 - TOWER DEFENSE"
+      },
+      {
+        "type": "question",
+        "text": "When a minion schemes during this scenario, which main scheme is its threat placed on?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Threat from a minion scheming is placed on the main scheme with the “Focused Defense” attachment attached to it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "IN-BETWEENER (#42), LIVING TRIBUNAL (#48), ETERNITY (#54), THE GARDENER (#60)"
+      },
+      {
+        "type": "question",
+        "text": "Where does a Cosmic Entity event go after it is resolved as a boost card?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That event is placed in the encounter deck discard pile."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "NEBULA HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "OLD RIVALS (#31)"
+      },
+      {
+        "type": "question",
+        "text": "If Old Rivals causes a Gamora ally or hero to attack, can her controller trigger abilities related to her attacking during this attack?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Gamora is considered to have attacked, so abilities triggered by her attacking can be resolved."
+      },
+      {
+        "type": "question",
+        "text": "If Old Rivals causes a Gamora ally to attack, does she take consequential damage?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes, allies always take consequential damage after they attack."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WAR MACHINE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "GAUNTLET GUN (#5)"
+      },
+      {
+        "type": "question",
+        "text": "Can Gauntlet Gun’s resource ability be triggered when paying a cost other than for a War Machine event in order to place 1 ammo counter on War Machine?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No, Gaunlet Gun’s resource ability can only be triggered when paying for a War Machine event."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SINISTER MOTIVES EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SCENARIO #4 - THE SINISTER SIX"
+      },
+      {
+        "type": "question",
+        "text": "If there is more than one villain in play, which villain takes the excess damage from attacks with overkill?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The villain with the active counter takes the overkill damage."
+      },
+      {
+        "type": "question",
+        "text": "What happens if a villain needs to activate and there are one or more villains in play but none of them have the active counter?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place the active counter on the villain with the lowest activation order value and continue that activation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SCENARIO #5 - VENOM GOBLIN"
+      },
+      {
+        "type": "question",
+        "text": "What happens when one of the main schemes is completed?"
+      },
+      {
+        "type": "paragraph",
+        "text": "When any of the main schemes has threat on it equal to or greater than its target threat value, flip that main scheme to its environment side and reveal that environment."
+      },
+      {
+        "type": "question",
+        "text": "When a player card effect places an acceleration token on “the main scheme,” which scheme is that token placed on?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That token is placed on the main scheme with the glider counter."
+      },
+      {
+        "type": "question",
+        "text": "When a player card effect counts the number of acceleration tokens on “the main scheme,” on which main scheme are the tokens counted?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The player using the effect chooses one main scheme on which to count the acceleration tokens."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ACROSS THE SPIDER-VERSE (#18)"
+      },
+      {
+        "type": "question",
+        "text": "Can this ability be repeated more than once?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes, repeating the ability on this card includes the repeat effect itself. As long as a player who can spend 3 resources and exhaust a Web-Warrior card can be chosen, the ability can be repeated."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "IRONHEART HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "“GO FOR CHAMPIONS!” (#25)"
+      },
+      {
+        "type": "question",
+        "text": "If I have played “Go for Champions!” this round, can I trigger an ability that requires taking damage as a cost?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No, if you cannot take damage, you cannot pay a cost that requires you to take damage."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SPIDER-HAM HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WARRIOR OF THE GREAT WEB (#29)"
+      },
+      {
+        "type": "question",
+        "text": "Can the SP//dr hero or ally have Warrior of the Great Web attached?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. A character’s title must contain the word “Spider” spelled exactly that way in order for Warrior of the Great Web to be attached."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SP//DR HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SPIDER-MAN NOIR (#15)"
+      },
+      {
+        "type": "question",
+        "text": "If a treachery’s “When Revealed” ability is canceled, can Spider-Man Noir attach that treachery to himself?"
+      },
+      {
+        "type": "paragraph",
+        "text": "In order for Spider-Man Noir’s response to trigger, some part of the treachery card must be resolved. If the treachery card has a keyword on it that is resolved when the card is revealed, like surge or incite X, Spider-Man Noir can trigger his response to attach that card to himself. If no part of the treachery card resolves, he cannot attach it."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MUTANT GENESIS EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "POWERFUL PUNCH (#14)"
+      },
+      {
+        "type": "question",
+        "text": "If Shadowcat plays Powerful Punch on the villain, when does she flip her mass form?"
+      },
+      {
+        "type": "paragraph",
+        "text": "When the villain initiates an attack, Shadowcat plays Powerful Punch. She deals 4 damage to the villain. As soon as she finishes resolving the attack-labeled effect, she is considered to have attacked and can flip her mass form as soon as the damage is dealt (she must do so if she is in Phased mass form)."
+      },
+      {
+        "type": "paragraph",
+        "text": "The villain then continues its attack, and Shadowcat is now considered defending that attack. If she is in her Phased mass form, she will not take any damage from that attack because of the constant ability on her Phased upgrade card. After the villain deals damage from its attack (or attempts to do so), Shadowcat finishes defending and can flip her mass form again (which she must do if she is in Phased mass form)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MUTANT PROTECTORS (#17)"
+      },
+      {
+        "type": "question",
+        "text": "How does the defense label on Mutant Protectors work since the card ability makes an ally the defender?"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a player plays Mutant Protectors, that player becomes the target of the enemy attack and the X-Men ally put into play becomes the defender."
+      },
+      {
+        "type": "paragraph",
+        "text": "If the defending ally leaves play before damage is dealt for the attack, the player’s hero becomes the defender and can trigger “after you defend” responses after the attack resolves. (This is not a basic defense, and the villain’s attack is not reduced by the hero’s DEF.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WHITE QUEEN (#56)"
+      },
+      {
+        "type": "question",
+        "text": "How does White Queen’s constant ability work?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The phrase “you are confused” instructs you to place a confused status card on your identity. Because White Queen uses this phrase as a constant ability, she continuously places confused status cards on the engaged player’s identity until that identity cannot have any more confused status cards (normally one, but can be more, such as when the identity has the steady keyword). If that identity attempts to thwart, they can do so and remove their confused status card(s), but will immediately be given more confused status cards. When White Queen leaves play, any confused status cards remain on the identity until that identity attempts to thwart in order to remove them."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "OPERATION ZERO TOLERANCE (#104)"
+      },
+      {
+        "type": "question",
+        "text": "If an ally is not discarded after being defeated by an enemy attack (for instance, it is returned to hand or shuffled into a player’s deck), does it go under Operation Zero Tolerance?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Operation Zero Tolerance does not specify where to find the defeated ally when it resolves, so it is placed under Operation Zero Tolerance, regardless of where it ended up."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FABIAN CORTEZ (#159)"
+      },
+      {
+        "type": "question",
+        "text": "If Fabian Cortez’s “When Defeated” ability puts an Acolyte minion with the teamwork keyword into play while Fabian Cortez is the only other Acolyte minion in play, will the teamwork keyword on the other minion trigger?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Since putting the other minion into play is the last effect of Fabian Cortez’s “When Defeated” ability, he is"
+      },
+      {
+        "type": "paragraph",
+        "text": "discarded immediately upon the other minion entering play. This means Fabian Cortez is no longer in play when the other minion‘s teamwork keyword tries to find an Acolyte minion in play."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CYCLOPS HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RICOCHET BEAM (#9)"
+      },
+      {
+        "type": "question",
+        "text": "If Cyclops chooses the same enemy with Exploit Weakness attached for both of Ricochet Beam’s instances of damage, how much damage is dealt to that enemy?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exploit Weakness increases each instance of damage Ricochet Beam deals to the enemy to which Exploit Weakness is attached by 1, so Ricochet Beam deals that enemy a total of 8 damage (4 damage + 4 damage)."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MOJOMANIA SCENARIO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DIAL M FOR MOJO (#35)"
+      },
+      {
+        "type": "question",
+        "text": "If Dial M for Mojo is in play when Spiral flips, does her incite 1 keyword trigger?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Villains are encounter cards, so Dial M for Mojo gives incite 1 to Spiral. When Spiral flips, her new face is revealed, meaning her incite 1 resolves."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WILD WILD MOJO (#66)"
+      },
+      {
+        "type": "question",
+        "text": "How is overkill damage affected by the “Forced Interrupt” on Wild Wild Mojo?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wild Wild Mojo first increases the initial damage dealt to a minion or ally by 1, and then when the excess damage is applied to the villain or identity, Wild Wild Mojo increases it by another 1, meaning the total overkill damage dealt is increased by 2."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "NEXT EVOLUTION EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MALICE (#199)"
+      },
+      {
+        "type": "question",
+        "text": "Is Malice still a minion while she is attached to an ally?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. While Malice is attached to an ally:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "She retains the minion card type."
+          },
+          {
+            "text": "She retains any damage on her."
+          },
+          {
+            "text": "She can be attacked and targeted by card abilities (including attachments) like any minion, but cannot be defeated again, even if she gains hit points or heals damage."
+          },
+          {
+            "text": "She is not considered engaged with a player and so cannot activate."
+          },
+          {
+            "text": "She is discarded when the card to which she is attached leaves play."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "X-23 HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HONEY BADGER (#3)"
+      },
+      {
+        "type": "question",
+        "text": "Can Honey Badger’s “Response” be triggered if the damage defeats her?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. By the time Honey Badger’s “Response“ would trigger, she has already left play, so it cannot be triggered."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "DEADPOOL HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CRISIS OF INFINITE DEADPOOLS (#37)"
+      },
+      {
+        "type": "question",
+        "text": "Is Crisis of Infinite Deadpools included in the encounter deck if an ability allows a player to include one or more ‘Pool aspect cards from outside of their chosen aspect in their deck?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Crisis of Infinite Deadpools is only included if at least one player in the game chooses the ‘Pool aspect as (one of) their chosen aspect(s)."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "AGE OF APOCALYPSE EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MAGIK (#30A)"
+      },
+      {
+        "type": "question",
+        "text": "When Magik plays the top card of her deck, at what point is the next card in her deck turned faceup?"
+      },
+      {
+        "type": "paragraph",
+        "text": "When playing the top card of her deck (which is the same process as playing a card from hand), Magik moves the card she is playing to the table in front of her during step 3 of the process outlined in the Initiating Abilities section of this rules reference. As soon as she does this, she turns the new top card of her deck faceup."
+      },
+      {
+        "type": "question",
+        "text": "Can Magik play the top card of her deck using an ability that says “play a card from your hand,” such as Team-Building Exercise (Ant-Man #24)?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Any time Magik has an opportunity to play a card from her hand, she may choose to play the top card of her deck instead (once per phase)."
+      },
+      {
+        "type": "question",
+        "text": "Can Magik resolve an ability that triggers “after you play [card] from your hand,” such as Pixie (Storm #17), if she plays that card from the top of her deck?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. When Magik plays a card from the top of her deck, that card is considered to have been played from her hand."
+      },
+      {
+        "type": "question",
+        "text": "Can Magik put the top card of her deck into play as if it was in her hand, such as with Mutant Protectors (Mutant Genesis #17)?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No. Putting a card into play is not the same as playing a card, and Magik’s ability only allows her to play the top card of her deck, not put it into play."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "AGENTS OF S.H.I.E.L.D. EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MARIA HILL (#1B)"
+      },
+      {
+        "type": "question",
+        "text": "Can I include just one or two S.H.I.E.L.D. supports from aspects other than my chosen aspect in my Maria Hill deck?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No, Maria Hill’s ability is all or nothing. You must include the maximum number of copies of each of exactly three S.H.I.E.L.D. supports from aspects other than your chosen aspect, or else you cannot have any S.H.I.E.L.D. supports from other aspects in your deck."
+      }
+    ]
+  },
+  {
+    "id": "errata",
+    "num": "V",
+    "title": "Errata",
+    "page": 65,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "STEALTH (#35)"
+      },
+      {
+        "type": "question",
+        "text": "When Nick Fury’s Stealth suit form changes the villain’s activation to a scheme, what happens if that villain is confused?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The interrupt ability of Stealth causes the villain activation to reinitiate, this time as a scheme activation, so the the confused status will cancel that activation (and Nick Fury does not get to place any threat on his suit form upgrade)."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "BLACK PANTHER HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE ELEPHANT’S TRUNK (#7)"
+      },
+      {
+        "type": "question",
+        "text": "Can I satisfy the cost of The Elephant’s Trunk’s action ability if I just exhaust The Elephant’s Trunk itself?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. The Elephant’s Trunk is itself a Wakanda support, so it satisfies the minimum of one Wakanda ally or support needed to pay its ability’s cost."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TARGET SPOTTER (#38)"
+      },
+      {
+        "type": "question",
+        "text": "If I use Target Spotter on a minion revealed by another player, does that minion ever engage that other player?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No, Target Spotter interrupts the engagement of that minion and causes it to engage the player using Target Spotter instead."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "FALCON HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "REDWING (#2)"
+      },
+      {
+        "type": "question",
+        "text": "Can Redwing’s ability be triggered if the top card of the encounter deck is visible and that card has no icons in its boost area?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No, because the player knows that the ability will not be able to affect its target, the ability cannot be triggered."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "HERCULES HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LABOR CARDS"
+      },
+      {
+        "type": "question",
+        "text": "What happens if a labor card fails to find a target when it is revealed?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That Labor card is discarded. Any time a Labor card leaves play other than being placed in the victory display, place it on the bottom of the Labor deck."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CORE SET"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUPERHUMAN LAW DIVISION (#26)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Alter-Ego Action: Exhaust Superhuman Law"
+      },
+      {
+        "type": "paragraph",
+        "text": "Division and spend a resource → remove 2 threat from a scheme.” (Removed “(thwart)” label.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "IRON MAN (#29A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “You get +1 hand size for each Tech upgrade you control (to a maximum of +6 hand size).” (Changed “(to a maximum hand size of 7)” to “(to a maximum of +6 hand"
+      },
+      {
+        "type": "paragraph",
+        "text": "size)”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE DOOMSDAY CHAIR (#183)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: If M.O.D.O.K. is not in play, search the encounter deck and discard pile for M.O.D.O.K. and put him into play engaged with you, then shuffle the encounter deck.” (Added periods to “M.O.D.O.K.”)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "M.O.D.O.K. (#184)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Added periods to card title."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "THE WRECKING CREW SCENARIO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "“I’VE BEEN WAITING FOR THIS!” (#41)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: The active villain heals 3 hit"
+      },
+      {
+        "type": "paragraph",
+        "text": "points. Give that villain a tough status card.” (Changed “gains” to “heals”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CAPTAIN AMERICA HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HONORARY AVENGER (#25)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Play only if your identity has the Avenger trait. Attach to a friendly character. Max 1 per character. Attached character gets +1 hit point and gains the Avenger trait.” (Added “Max 1 per character.”)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FOLLOWED (#32)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When attached scheme is"
+      },
+      {
+        "type": "paragraph",
+        "text": "defeated, deal 4 damage to an enemy.” (Changed “Response” to “Interrupt”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "THOR HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LIGHTNING STRIKE (#6)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Spend X resources → deal"
+      },
+      {
+        "type": "paragraph",
+        "text": "X damage to the villain and each minion engaged with you. This damage ignores tough status cards if you have the Aerial trait.” (Changed “attack” to “damage”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LOKI (#28)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Interrupt: When Loki would be"
+      },
+      {
+        "type": "paragraph",
+        "text": "defeated, discard the top card of the encounter deck. If that card is a treachery, heal all damage from Loki instead.” (Changed “Interrupt” to “Forced Interrupt”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "BLACK WIDOW HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BLACK WIDOW (#1A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Widowmaker — Response: After you resolve"
+      },
+      {
+        "type": "paragraph",
+        "text": "the ability of a Preparation card you control, deal 1 damage to an enemy.” (Changed “trigger” to “resolve”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SYNTH-SUIT (#9)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Response: After you resolve the ability"
+      },
+      {
+        "type": "paragraph",
+        "text": "of a preparation card you control, exhaust Synth-Suit → ready Black Widow.” (Changed “trigger” to “resolve”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "DOCTOR STRANGE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "IRON FIST (#14)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When Iron Fist attacks an enemy,"
+      },
+      {
+        "type": "paragraph",
+        "text": "remove 1 mystic counter from him → stun that enemy and deal 1 damage to it.” (Changed “Response” to “Interrupt”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WARNING (#21)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When a hero would take any"
+      },
+      {
+        "type": "paragraph",
+        "text": "amount of damage, reduce that amount by 1.” (Removed “(defense)” and the Defense trait.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "HULK HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "INNER DEMONS (#25)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Give to the Bruce Banner player. Change"
+      },
+      {
+        "type": "paragraph",
+        "text": "form (flip your identity). • If you are Bruce Banner, discard 2 cards from your hand. Discard this obligation. • If you are Hulk, exhaust your hero. Discard this obligation.” (Removed “Then:”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "RISE OF RED SKULL EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "AVENGERS TOWER (#21)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should have the Avenger trait."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MARKED FOR DEATH (#28)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: The Clint Barton player"
+      },
+      {
+        "type": "paragraph",
+        "text": "searches their hand, deck, discard pile, and play area for Mockingbird and tucks her faceup beneath this card. When this scheme is defeated, return the tucked Mockingbird to her owner’s hand.” (Changed “places” to “tucks” and “stage” to “scheme”. Added “the tucked”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "HAIL HYDRA! (#57, #147)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: Each Hydra minion engaged"
+      },
+      {
+        "type": "paragraph",
+        "text": "with a hero attacks that hero. Each player who was not attacked this way searches the encounter deck and discard pile for a Hydra minion and puts it into play engaged with them. Shuffle the encounter deck if it was searched.” (Changed the shuffle ability to only occur if the encounter deck is searched.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ATTACK ON MOUNT ATHENA (#61A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Contents: Crossbones (I) and Crossbones"
+      },
+      {
+        "type": "paragraph",
+        "text": "(II). Crossbones, Experimental Weapons, and Standard Encounter sets. Three modular sets (Hydra Assault, Weapon Master, and Legions of Hydra).” (Changed “Hydra Patrol” to “Hydra Assault”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE RISE OF RED SKULL (#128A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Setup: Put the Red House into play. Shuffle"
+      },
+      {
+        "type": "paragraph",
+        "text": "every other encounter side scheme into the side-scheme deck and set it next to the encounter deck (see insert). Set The Sleeper aside, out of play.” (Added “encounter” before “side scheme”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TWISTED REALITY (#135)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Interrupt: When attached side"
+      },
+      {
+        "type": "paragraph",
+        "text": "scheme is defeated, deal the first player an encounter card.” (Changed “Forced Response” to “Forced Interrupt”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BITTER RIVAL (#136)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: For each side scheme in"
+      },
+      {
+        "type": "paragraph",
+        "text": "play, choose and exhaust a character you control.” (Revised wording to function as intended with updated “for each” rules.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WASP HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BEETLE (#28)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Interrupt: When Beetle is defeated,"
+      },
+      {
+        "type": "paragraph",
+        "text": "the defeating player chooses to either spend a resource or shuffle Beetle into the encounter deck.” (Specified which player should resolve the ability.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "GALAXY’S MOST WANTED EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RULEBOOK PG. 10, CAMPAIGN INSTRUCTIONS, SETUP, BULLET 5"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Expert Campaign Only: When setup ends,"
+      },
+      {
+        "type": "paragraph",
+        "text": "in player order, each player must choose 1 card from their hand and put it faceup into The Collection.” (Added “When setup ends”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RULEBOOK PG. 18, CAMPAIGN INSTRUCTIONS, SETUP, BULLET 1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “(Optional) Reveal the Kree Supremacy (#182A) side scheme (use the reverse side for expert mode).” (Added “(Optional)” before the instruction.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "OBEDIENCE POTION (#123)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Take 1 damage and spend"
+      },
+      {
+        "type": "paragraph",
+        "text": "resources → discard this card. Any player can do this.” (Changed reminder text to rules text.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE POISON (#125)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Spend 3 resources of different"
+      },
+      {
+        "type": "paragraph",
+        "text": "types → discard this card. Any player can do this.” (Changed reminder text to rules text.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "STAR-LORD HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "COSMO (#20)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When Cosmo attacks or thwarts,"
+      },
+      {
+        "type": "paragraph",
+        "text": "name a card type, then discard the top card of a player deck or the encounter deck. If that card is of the named type, Cosmo does not take consequential damage for this use.” (Changed “a deck” to “a player deck or the encounter deck”. Removed reminder text.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MAD TITAN’S SHADOW EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RULEBOOK PG. 10, TWO MAIN SCHEMES, PARAGRAPH 1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should end with this sentence: “When a minion schemes, that threat is placed on the main scheme with the attachment ‘Focused Defense’ attached to it.”"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SANCTUARY (#116)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Thanos cannot take damage from player cards.” (Added “from player cards”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "INFINITY GAUNTLET (#129)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Permanent. Setup."
+      },
+      {
+        "type": "paragraph",
+        "text": "Attach to the villain."
+      },
+      {
+        "type": "paragraph",
+        "text": "Forced Response: After attached villain activates against"
+      },
+      {
+        "type": "paragraph",
+        "text": "you, resolve the Special ability of each Infinity Stone in play. Otherwise, put the top card of the Infinity Stone deck into play.” (Added “Attach to the villain” and “against you”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "NEBULA HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "EROS (#11)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Response: After you play Eros from your"
+      },
+      {
+        "type": "paragraph",
+        "text": "hand, for each resource you used to pay for him, choose a minion and confuse it.” (Revised wording to function as intended with updated “for each” rules.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "COSMO (#20)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When Cosmo attacks or thwarts,"
+      },
+      {
+        "type": "paragraph",
+        "text": "name a card type, then discard the top card of a player deck or the encounter deck. If that card is of the named type, Cosmo does not take consequential damage for this use.” (Changed “a deck” to “a player deck or the encounter deck”. Removed reminder text.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "OLD RIVALS (#31)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: Gamora attacks you. If the"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gamora hero or ally is in play, she attacks you (resolve her ATK against you without exhausting her). If no attack was made this way, this card gains surge.” (Changed reminder text to rules text to function with the updated rules on referential abilities.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WAR MACHINE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "JAMES RHODES (#1B)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Action: Choose a War Machine card in your"
+      },
+      {
+        "type": "paragraph",
+        "text": "discard pile and shuffle it into your deck. (Limit once per phase.)” (Added “(Limit once per phase.)”)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "VALKYRIE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ARAGORN (#7)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “You get +4 hit points and gain the Aerial trait.” (Changed “Valkyrie” to “You”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SHIELDMAIDEN (#11)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should have the Defense trait and read: “Hero Interrupt"
+      },
+      {
+        "type": "paragraph",
+        "text": "(defense): When the enemy with Death-Glow attached attacks, declare Valkyrie the defender without exhausting her. She gets +2 DEF for this attack.” (Added “(defense)”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BEGUILED (#31)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should have the Condition trait and read: “When Revealed:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Attach to the ally with the highest cost without Beguiled attached. Attached ally engages its controller. Otherwise, this card gains surge.”"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "VISION HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MACHINE MAN (#22)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When Machine Man attacks or"
+      },
+      {
+        "type": "paragraph",
+        "text": "thwarts, spend up to 3 resources of any type → Machine Man gets +1 THW and +1 ATK for this use for each resource spent this way.” (Added “for this use”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SINISTER MOTIVES EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RULEBOOK PG. 17, THE GLIDER COUNTER, PARAGRAPH 4"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should end with this sentence: “When a main scheme is completed, flip it to its environment side.”"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RULEBOOK PG. 22, REPUTATION TRACK, LEFT COLUMN, PARAGRAPH 2"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “During the Resolve Mulligans step of game setup, each player may take 1 additional mulligan.” (Changed “step 13” to “the Resolve Mulligans step” to align with updated setup process.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "WORRIED FATHER (#25)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Search your deck, hand, discard pile, and play area for George Stacy and attach him facedown to this card.” (Attaches George Stacy to itself instead of setting him aside and attaching to him.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VENOM I AND II (#73-74)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Vengeance — Forced Response: After you"
+      },
+      {
+        "type": "paragraph",
+        "text": "or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity.” (Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "VENOM III (#75)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Retribution — Forced Response: After you"
+      },
+      {
+        "type": "paragraph",
+        "text": "or an ally you control attacks and damages Venom, place 1 facedown boost card on your identity (2 facedown boost cards instead if this is the first attack this turn).” (Changed “you attack and damage Venom with a card you control” to “you or an ally you control attacks and damages Venom”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MANIPULATED MIND (#171)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: Attach to the ally you"
+      },
+      {
+        "type": "paragraph",
+        "text": "control with the lowest cost. Attached ally engages its controller. Otherwise, this card gains surge.” (Added “Attached ally engages its controller.”)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "NOVA HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MS. MARVEL (#2)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Response: After you play an event,"
+      },
+      {
+        "type": "paragraph",
+        "text": "exhaust Ms. Marvel and deal 1 damage to her → return that event to your hand from your discard pile.” (Added “from your discard pile”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "IRONHEART HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "“GO FOR CHAMPIONS!” (#25)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Remove ‘Go for Champions!’"
+      },
+      {
+        "type": "paragraph",
+        "text": "from the game → each Champion character in play cannot take damage until the end of the round.” (Added “Remove ‘Go for Champions!’ from the game →”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SP//DR HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SP//DR SUIT (#1B)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Return to Base — Forced Interrupt: When"
+      },
+      {
+        "type": "paragraph",
+        "text": "you flip to this side, flip SP//dr to Peni Parker. Detach Peni Parker from here, moving all counters on this card and cards attached to this card to her.” (Counters and attachments now move to Peni Parker, instead of the reverse.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "M.O.R.B.I.U.S. (#27)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After the engaged player"
+      },
+      {
+        "type": "paragraph",
+        "text": "generates any number of resources, deal an equal amount of damage to that player’s hero.” (Changed “engaged hero” to “engaged player” and “that hero” to “that player’s hero”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MUTANT GENESIS EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "STEEL FIST (#8)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action (attack): Deal 5 damage to an"
+      },
+      {
+        "type": "paragraph",
+        "text": "enemy. You may discard a tough status card from your hero to stun and confuse that enemy.” (Replaced cost arrow with “to”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ARMOR UP (#10)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Alter-Ego Interrupt: When the villain would"
+      },
+      {
+        "type": "paragraph",
+        "text": "activate, change to hero form.” (Added “would”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MUTANTS AT THE MALL (#88A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Defeated: The first player searches"
+      },
+      {
+        "type": "paragraph",
+        "text": "the encounter deck and discard pile for a Sentinel minion and reveals it. Flip this card and put Jubilee into play, discarding any other ally version of Jubilee from play.” (Added “ally”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ASTEROID M (#141B)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After you place a magnet"
+      },
+      {
+        "type": "paragraph",
+        "text": "counter on this scheme, if there are at least 3 magnet counters here, remove 3 of them and discard cards from the encounter deck until a Magnetic card is discarded. Reveal that card.” (Magnet counters are now removed before the Magnetic card is revealed.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FACTORY ONLINE (#142B)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After you place a magnet"
+      },
+      {
+        "type": "paragraph",
+        "text": "counter on this scheme, if there are at least 3 magnet counters here, remove 3 of them and discard cards from the encounter deck until a Magnetic card is discarded. Reveal that card.” (Magnet counters are now removed before the Magnetic card is revealed.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE RULE OF MAGNUS (#143B)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After you place a magnet"
+      },
+      {
+        "type": "paragraph",
+        "text": "counter on this scheme, if there are at least 3 magnet counters here, remove 3 of them and discard cards from the encounter deck until a Magnetic card is discarded. Reveal that card.” (Magnet counters are now removed before the Magnetic card is revealed.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WOLVERINE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "LOGAN (#1A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Setup: Put Wolverine’s Claws into play.”"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BERSERKER BARRAGE (#8)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action (attack): Deal 4 damage to an"
+      },
+      {
+        "type": "paragraph",
+        "text": "enemy. If this attack defeats an enemy, you may take 2 damage to repeat this ability.” (Replaced cost arrow with “to”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "STORM HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CLAUSTROPHOBIA (#30)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Flip to alter-ego form. You cannot change to hero form.” (Changed “change forms” to “change to hero form”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "POSSESSED (#38)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: Attach to the ally with the"
+      },
+      {
+        "type": "paragraph",
+        "text": "lowest THW without Possessed attached. Attached ally engages its controller. If you cannot, this card gains surge.” (Added “Attached ally engages its controller.”)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "GAMBIT HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PSIONIC SHIELD (#34)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Interrupt: When attached minion"
+      },
+      {
+        "type": "paragraph",
+        "text": "would leave play, instead heal all damage from that minion. Then, discard this attachment.” (Removed “and put it back into play”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "ROGUE HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ANNA MARIE (#1A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Setup: Find your Touched upgrade and set it"
+      },
+      {
+        "type": "paragraph",
+        "text": "aside."
+      },
+      {
+        "type": "paragraph",
+        "text": "Withdrawn — Forced Response: After you change to this"
+      },
+      {
+        "type": "paragraph",
+        "text": "form, find Touched and set it aside.” (Now specifies to “find” Touched and set it aside.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ROGUE (#1B)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Skin Contact — Action: Find Touched and"
+      },
+      {
+        "type": "paragraph",
+        "text": "attach it to another character. You gain each of the attached character’s Traits until the end of the round. (Limit once per round.)” (Changed “Attach Touched...” to “Find Touched and attach it...”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ENERGY TRANSFER (#7)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Find Touched and attach it to"
+      },
+      {
+        "type": "paragraph",
+        "text": "a character other than Rogue and deal 2 damage to that character → heal 2 damage from Rogue and ready her. You gain each of the attached character’s Traits until the end of the round.” (Changed “Attach Touched...” to “Find Touched and attach it...”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MYSTIQUE’S MANIPULATIONS (#26)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Defeated: The defeating player"
+      },
+      {
+        "type": "paragraph",
+        "text": "searches the encounter deck and discard pile for a copy of the Misled treachery and shuffles it into their deck.” (Specified who should resolve the ability.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "BONEBREAKER (#31)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After Bonebreaker"
+      },
+      {
+        "type": "paragraph",
+        "text": "engages you, take 1 indirect damage for each Reaver minion engaged with you.” (Changed “Forced Interrupt” to “Forced Response”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MOJOMANIA SCENARIO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "THE SEARCH FOR SPIRAL (#16)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Take 2 damage → remove"
+      },
+      {
+        "type": "paragraph",
+        "text": "3 threat from here.” (Added cost arrow.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FETCH QUEST (#45)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Defeated: In player order, each player"
+      },
+      {
+        "type": "paragraph",
+        "text": "may search their deck for a card and play that card, ignoring its resource cost. (Shuffle.)” (Replaced “for free” with “ignoring its resource cost”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "NEXT EVOLUTION EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "INHIBITOR COLLAR (#92)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Action: Choose to either exhaust a character"
+      },
+      {
+        "type": "paragraph",
+        "text": "you control or take 3 damage → discard this card. Any player can do this.” (Changed reminder text to rules text.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "X-23 HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "FRONT LINE SPECIALIST (#36)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Your identity gets +4 hit points.” (Changed “hero” to “identity”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "DEADPOOL HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "‘POOL-IZED (#41)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: Attach to the ally with the"
+      },
+      {
+        "type": "paragraph",
+        "text": "highest cost without ‘Pool-ized attached. Attached ally engages its controller. Otherwise, this card gains surge.” (Added “Attached ally engages its controller.”)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "AGE OF APOCALYPSE EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SUIT UP (#17)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Alter-Ego Action: Search your deck and"
+      },
+      {
+        "type": "paragraph",
+        "text": "discard pile for an ally and an upgrade that can be attached to an ally. Add them to your hand.” (Changed “can be attached to that ally” to “can be attached to an ally”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MISSION TEAM (#171A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first bullet should read: “Reduce the cost of the next ally played to the mission this phase by 2.” (Added “this phase”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "NIGHTCRAWLER HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ROGUE (#12)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Action: Deal 1 damage to another friendly"
+      },
+      {
+        "type": "paragraph",
+        "text": "character → until the end of the round, Rogue gains each of that character’s Traits and adds that character’s base THW and ATK to her matching powers. (Limit once per round.)” (Changed “printed” to “base”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "TWEEDLEDOPE (#37)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Removed the star icon () from this card’s boost field."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "MAGNETO HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MAGNETIC MISSILE (#10)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Hero Action: Discard a minion with Wrapped"
+      },
+      {
+        "type": "paragraph",
+        "text": "in Metal attached. Then, deal 5 damage to an enemy and stun it.” (Changed cost arrow to “Then”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "DEFT FOCUS (#23)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Classification should be “Basic” instead of “Protection.”"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "EXODUS (#28)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After Exodus attacks you,"
+      },
+      {
+        "type": "paragraph",
+        "text": "discard cards from the top of your deck equal to his total ATK for that attack.” (Added “for that attack”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "AGENTS OF S.H.I.E.L.D. EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RADIATION EXPOSURE (#171A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "The “SCH” modifier on this card should be a “THW” modifier."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MACH-IV (#156)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Each character without the Aerial trait cannot defend against MACH-IV’s attacks.” (Changed “make basic defenses” to “defend”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SILK HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "EIDETIC MEMORY (#8)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Interrupt: When you reveal a card from the"
+      },
+      {
+        "type": "paragraph",
+        "text": "same encounter set as a card tucked under your identity, exhaust Eidetic Memory → swap those cards. Reveal the card that had been tucked under your identity instead.” (Changed “Silk” to “your identity”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WINTER SOLDIER HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "S.H.I.E.L.D. DEPUTY (#33)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Attach to a friendly character. Max 1 per character.” (Added “Max 1 per character.”)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "TRICKSTER TAKEOVER SCENARIO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "RULEBOOK PG. 19, SWAPPING AVATARS OF LOKI, PARAGRAPH 1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When a card effect instructs the players to swap an Avatar of Loki villain or Fading Figment with a random set-aside Avatar of Loki villain, they should replace the villain in play with one of the other set-aside versions of the Avatar of Loki villain.” (Rewritten to apply section’s rules to swapping a Fading Figment with an Avatar of Loki villain.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CIVIL WAR EXPANSION"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "YELLOW JACKET (#19)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Title should read “Yellowjacket”."
+      },
+      {
+        "type": "paragraph",
+        "text": "Text should read: “Response: After Yellowjacket enters"
+      },
+      {
+        "type": "paragraph",
+        "text": "play, search the top 5 cards of your deck for an upgrade and add it to your hand.” (Changed “Yellow Jacket” to “Yellowjacket”.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "YELLOW JACKET (#73)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Title should read “Yellowjacket”."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "ENERGY CHANNEL (#98)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Forced Response: After a leader, hero, or ally"
+      },
+      {
+        "type": "paragraph",
+        "text": "attacks Captain Marvel, place 1 energy counter here. Then, if there are at least 4 energy counters here, remove all of them and Captain Marvel attacks that character. This attack gains overkill.” (Changed “→” to “and”.)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "SYNTHEZOID SMACKDOWN SCENARIO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "MOON KNIGHT (#65)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “When Revealed: Resolve the “When Revealed” ability of the topmost treachery in the encounter"
+      },
+      {
+        "type": "paragraph",
+        "text": "discard pile. (Limit once per phase.)” (Added “(Limit once per phase.)”)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "PHASED OUT (#76)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Action: Choose an attachment on the enemy leader with the text ‘Hero Action’ or ‘Hero Response’ and"
+      },
+      {
+        "type": "paragraph",
+        "text": "discard it.” (Changed “Hero Interrupt” to “Hero Action.”)"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "WONDER MAN HERO PACK"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "IONIC PHYSIOLOGY (#2)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should read: “Response: After you play an event with a"
+      },
+      {
+        "type": "paragraph",
+        "text": "printed resource, tuck that event from your discard pile under this card. Then, heal 1 damage from your identity.” (Changed cost arrow to “Then”.)"
+      }
+    ]
+  },
+  {
+    "id": "game-environments",
+    "num": "VI",
+    "title": "Game Environments (Beta)",
+    "page": 71,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "APPENDIX VI: GAME APPENDIX VI: GAME ENVIRONMENTS (BETA) ENVIRONMENTS (BETA)"
+      },
+      {
+        "type": "paragraph",
+        "text": "When preparing for a game, a group of players may choose a game environment for that game, or they may decide to allow each player to choose their own environment for that game. The game environment establishes which Marvel Champions products can be used during player deck customization for that game. By choosing to use a smaller environment, players can test their creativity and skill by customizing their player decks using a smaller pool of player cards."
+      },
+      {
+        "type": "paragraph",
+        "text": "To play in a game environment, a player customizes their deck using only player cards included in the products designated by that environment. This includes the choice of which hero to play as."
+      },
+      {
+        "type": "paragraph",
+        "text": "A group may choose to play any scenario with any modular encounter sets, regardless of the chosen environment(s)."
+      },
+      {
+        "type": "paragraph",
+        "text": "There are three types of environments:"
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "CURRENT ENVIRONMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Current Environment consists of the most recent products released for Marvel Champions, in addition to the core set."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Current Environment includes the following products:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "The Marvel Champions: The Card Game core set"
+          },
+          {
+            "text": "Expansions",
+            "children": [
+              {
+                "text": "The Age of Apocalypse campaign expansion"
+              },
+              {
+                "text": "The Agents of S.H.I.E.L.D. campaign expansion"
+              },
+              {
+                "text": "The Civil War custom scenario expansion"
+              },
+              {
+                "text": "The Fear No Evil campaign expansion (upon release)"
+              }
+            ]
+          },
+          {
+            "text": "Hero Packs",
+            "children": [
+              {
+                "text": "Iceman Hero Pack"
+              },
+              {
+                "text": "Jubilee Hero Pack"
+              },
+              {
+                "text": "Nightcrawler Hero Pack"
+              },
+              {
+                "text": "Magneto Hero Pack"
+              },
+              {
+                "text": "Black Panther Hero Pack"
+              },
+              {
+                "text": "Silk Hero Pack"
+              },
+              {
+                "text": "Falcon Hero Pack"
+              },
+              {
+                "text": "Winter Soldier Hero Pack"
+              },
+              {
+                "text": "Wonder Man Hero Pack"
+              },
+              {
+                "text": "Hercules Hero Pack"
+              }
+            ]
+          },
+          {
+            "text": "All products not listed above that were released since the most recent version of this document was published (v1.8, Jul 2026)."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "LEGACY ENVIRONMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Legacy Environment consists of all Marvel Champions"
+      },
+      {
+        "type": "paragraph",
+        "text": "products. To play in the Legacy Environment, a player customizes their deck using player cards from any product in their collection."
+      },
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "LIMITED ENVIRONMENT"
+      },
+      {
+        "type": "paragraph",
+        "text": "A limited environment allows a player who owns a number of older products to continue to play with those products while still reaping the benefits of playing within a smaller environment. To play in a Limited Environment, a player customizes their deck using cards from:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "The Marvel Champions: The Card Game core set"
+          },
+          {
+            "text": "Up to 3 campaign and/or custom scenario expansions"
+          },
+          {
+            "text": "Up to 4 hero packs"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "While any expansion or hero pack may be chosen for a Limited Environment (and finding creative combinations of products from which to build could be an enjoyable experience for deckbuilding enthusiasts), a number of past Marvel Champions products were developed together in waves. As a starting point for creating a Limited Environment, we recommend selecting three waves of related products to explore the synergies between those cards, and branching out to other, more creative combinations only after growing more familiar with the cardpool."
+      },
+      {
+        "type": "paragraph",
+        "text": "The waves released as of the publication of this document are:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          {
+            "text": "The Captain America hero pack, the Ms. Marvel Hero Pack, the Thor Hero Pack, the Black Widow Hero Pack, the Doctor Strange Hero Pack, and the Hulk Hero Pack."
+          },
+          {
+            "text": "The Rise of Red Skull campaign expansion, the Ant-Man Hero Pack, the Wasp Hero Pack, the Quicksilver Hero Pack, and the Scarlet Witch Hero Pack."
+          },
+          {
+            "text": "The Galaxy’s Most Wanted campaign expansion, the Star-Lord Hero Pack, the Gamora Hero Pack, the Drax Hero Pack, and the Venom Hero Pack."
+          },
+          {
+            "text": "The Mad Titan’s Shadow campaign expansion, the Nebula Hero Pack, the War Machine Hero Pack, the Valkyrie Hero Pack, and the Vision Hero Pack."
+          },
+          {
+            "text": "The Sinister Motives campaign expansion, the Nova Hero Pack, the Ironheart Hero Pack, the Spider-Ham Hero Pack, and the SP//dr Hero Pack."
+          },
+          {
+            "text": "The Mutant Genesis campaign expansion, the Cyclops Hero Pack, the Phoenix Hero Pack, the Wolverine Hero Pack, the Storm Hero Pack, the Gambit Hero Pack, and the Rogue Hero Pack."
+          },
+          {
+            "text": "The NeXt Evolution campaign expansion, the Psylocke Hero Pack, the Angel Hero Pack, the X-23 Hero Pack, and the Deadpool Hero Pack."
+          },
+          {
+            "text": "The Age of Apocalypse campaign expansion, the Iceman Hero Pack, the Jubilee Hero Pack, the Nightcrawler Hero Pack, and the Magneto Hero Pack."
+          },
+          {
+            "text": "The Agents of S.H.I.E.L.D. campaign expansion, the Black Panther Hero Pack, the Silk Hero Pack, the Falcon Hero Pack, and the Winter Soldier Hero Pack."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "10. The Civil War custom scenario expansion, the Wonder"
+      },
+      {
+        "type": "paragraph",
+        "text": "Man Hero Pack, and the Hercules Hero Pack."
+      }
+    ]
+  }
+]
