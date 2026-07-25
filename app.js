@@ -23,6 +23,10 @@
   let glossaryLoaded = false; // lazy-load guard
   const BY_SLUG = new Map();  // slug -> entry (fast lookup)
 
+  let APPENDICES = [];          // raw array from appendices.json
+  let appendicesLoaded = false; // lazy-load guard
+  const APX_BY_ID = new Map();  // id -> appendix
+
   const SECTIONS = ["home", "glossary", "overview", "notable-changes", "appendixes"];
 
   /* ---------- Tiny DOM helpers ---------- */
@@ -68,6 +72,11 @@
       await ensureGlossary();
       renderGlossaryRoute(param);
     }
+
+    if (section === "appendixes") {
+      await ensureAppendices();
+      renderAppendixRoute(param);
+    }
   }
 
   // Show the requested view, hide the others.
@@ -109,6 +118,83 @@
       renderEntry(entry);
       highlightActive(entry.slug);
     }
+  }
+
+  /* ============================================================
+     Appendices — lazy load + render
+     ============================================================ */
+  async function ensureAppendices() {
+    if (appendicesLoaded) return;
+    try {
+      const res = await fetch("appendices.json", { cache: "no-cache" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      APPENDICES = await res.json();
+    } catch (err) {
+      const box = $("#appendixEntry");
+      if (box) box.innerHTML = `<p class="error">Couldn’t load appendices.json (${err.message}).</p>`;
+      return;
+    }
+    APX_BY_ID.clear();
+    APPENDICES.forEach(a => APX_BY_ID.set(a.id, a));
+    appendicesLoaded = true;
+  }
+
+  // param empty → show the card index; param set → show that appendix.
+  function renderAppendixRoute(id) {
+    const index = $("#appendixIndex");
+    const entry = $("#appendixEntry");
+    if (!index || !entry) return;
+
+    const apx = id && APX_BY_ID.get(id);
+    if (apx) {
+      index.hidden = true;
+      entry.hidden = false;
+      renderAppendix(apx);
+    } else {
+      entry.hidden = true;
+      index.hidden = false;
+    }
+  }
+
+  function renderAppendix(apx) {
+    const main = $("#appendixEntry");
+    main.innerHTML = "";
+
+    main.appendChild(el("a", {
+      className: "back-home appendix-back",
+      text: "‹ All appendixes",
+      attrs: { href: "#appendixes" }
+    }));
+
+    main.appendChild(el("h1", {
+      className: "entry-title",
+      text: `Appendix ${apx.num}: ${apx.title}`
+    }));
+    if (apx.page) {
+      main.appendChild(el("p", {
+        className: "entry-source",
+        text: `Rules Reference v1.8 · page ${apx.page}`
+      }));
+    }
+
+    (apx.blocks || []).forEach(b => {
+      const node = renderApxBlock(b);
+      if (node) main.appendChild(node);
+    });
+    main.scrollTop = 0;
+  }
+
+  // Appendix blocks add "heading" and "question" on top of paragraph/list.
+  function renderApxBlock(b) {
+    if (b.type === "heading") {
+      const tag = b.level === 2 ? "h3" : "h2";
+      return el(tag, { className: `apx-h${b.level || 1}`, text: b.text });
+    }
+    if (b.type === "question") {
+      return el("p", { className: "apx-question", text: b.text });
+    }
+    // paragraph / list reuse the glossary block renderer
+    return renderBlock(b);
   }
 
   /* ---------- Left-hand index / term list ---------- */
