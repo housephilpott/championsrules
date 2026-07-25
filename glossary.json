@@ -1,18 +1,480 @@
 [
   {
-    "term": "Attachment",
-    "definition": "Attachment is an encounter card type. When an attachment enters play, it attaches to another card or game element.",
+    "term": "Activation",
+    "slug": "activation",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 6
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "There are two types of enemy activations: an attack activation and a scheme activation. Whenever an enemy attacks or schemes, it is considered to have activated."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "During step two of the villain phase, the villain activates once per player, in player order. If the identity of the player resolving the activation is in hero form, the villain initiates an attack against that player’s identity. If the identity of the player resolving the activation is in alter-ego form, the villain initiates a scheme."
+          },
+          {
+            "text": "During step two of the villain phase, each minion engaged with a player activates against that player. If the identity of the engaged player is in hero form, the minion initiates an attack against that player’s identity. If the identity of the engaged player is in alter-ego form, the minion initiates a scheme."
+          },
+          {
+            "text": "Each time the villain activates, give the villain one boost card from the encounter deck for that activation."
+          },
+          {
+            "text": "Some card abilities can also cause enemies to attack or scheme. These are also considered activations."
+          },
+          {
+            "text": "If multiple enemies activate against you simultaneously, resolve the villain’s activation first (if any) in the order of your choice, followed by minion activations in the order of your choice."
+          },
+          {
+            "text": "If an activating minion leaves play, that minion’s activation ends immediately and no further steps of that activation resolve."
+          },
+          {
+            "text": "An effect that initiates an enemy activation is considered resolved after that activation has fully resolved."
+          },
+          {
+            "text": "If an effect initiates an activation during the resolution of another activation, the newly initiated activation resolves after the current activation has finished resolving.",
+            "children": [
+              {
+                "text": "If multiple activations are initiated this way, the first player decides the order in which they are resolved."
+              },
+              {
+                "text": "All abilities triggered by the initial activation resolve before subsequent activations initiate."
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "seeAlso": [
-      "Attach To",
-      "Encounter Card",
-      "Enters Play"
+      { "term": "Boost", "slug": "boost" },
+      { "term": "Attack (Enemy Activation)", "slug": "attack-enemy-activation" },
+      { "term": "Scheme (Enemy Activation)", "slug": "scheme-enemy-activation" },
+      { "term": "Minion", "slug": "minion" },
+      { "term": "Villain", "slug": "villain" },
+      { "term": "Villain Phase", "slug": "villain-phase" }
     ]
   },
   {
-    "term": "Attach To",
-    "definition": "Some cards enter play attached to another card or game element.",
+    "term": "Attack (Enemy Activation)",
+    "slug": "attack-enemy-activation",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 8
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "An attack is a type of enemy activation. When an enemy initiates an attack, it targets a specific player, then resolves that attack against that player."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "Enemy attacks are always initiated against both a player and a character.",
+            "children": [
+              {
+                "text": "Normally the attacked character is the player’s hero, but abilities can instead cause an enemy to attack a player’s alter-ego or an ally that player controls. In all of these cases, the player is still considered attacked."
+              },
+              {
+                "text": "If a character other than the attacked character defends the attack, that character becomes the new target of that attack."
+              },
+              {
+                "text": "If a player other than the attacked player defends the attack with a character they control, that player becomes the new target of that attack."
+              },
+              {
+                "text": "Abilities that trigger “When/After [enemy] attacks you” are resolved when/after a player is attacked, regardless of which character they control was attacked."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "To resolve an enemy attack, follow these steps:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          {
+            "text": "Give boost card: If a villain, or a minion with the villainous keyword, is attacking, give it one facedown boost card from the encounter deck. (If a minion without the villainous keyword is attacking, skip this step.)"
+          },
+          {
+            "text": "Declare defender: If a player wishes to defend, that player exhausts a hero or ally as the defender.",
+            "children": [
+              {
+                "text": "The defending character becomes the target character for the attack."
+              },
+              {
+                "text": "If a player other than the target player defends, the defending player becomes the target player for the attack."
+              }
+            ]
+          },
+          {
+            "text": "Flip boost cards: Flip and resolve each of the attacking enemy’s boost cards, one at a time and in the order in which they were dealt, increasing the enemy’s ATK value by one for each boost icon, then discarding each boost card."
+          },
+          {
+            "text": "Calculate damage: Determine how much damage will be dealt by the attack. The base damage equals the attacking enemy’s ATK (including modifiers and boost icons). If a hero has been declared the defender, reduce the damage by that hero’s DEF value."
+          },
+          {
+            "text": "Deal damage: Deal the amount of damage to the target character."
+          }
+        ]
+      }
+    ],
     "seeAlso": [
-      "Attachment"
+      { "term": "Activation", "slug": "activation" },
+      { "term": "Boost", "slug": "boost" },
+      { "term": "Damage", "slug": "damage" },
+      { "term": "Defend", "slug": "defend" },
+      { "term": "Villain Phase", "slug": "villain-phase" }
+    ]
+  },
+  {
+    "term": "Boost, Boost Icon",
+    "slug": "boost",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 11
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Each time the villain attacks or schemes, the villain is given one facedown card from the encounter deck, as a boost card. Minions with the villainous keyword are also given a boost card when they activate."
+      },
+      {
+        "type": "paragraph",
+        "text": "During the activation (and after any defenders are declared if the villain is attacking), each boost card on the enemy is turned face up one at a time. Add the number of boost icons on each card to the enemy’s ATK value (if it is attacking) or SCH value (if it is scheming) for that activation. Boost icons are located at the bottom-right of the card."
+      },
+      {
+        "type": "paragraph",
+        "text": "If the boost field has a star icon, it indicates that the card has a “Boost” ability. Refer to the card’s text box and resolve the “Boost” ability when the card is turned face up. The “Boost” ability is located beneath the divider line in the text box."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "A star icon is not itself considered a boost icon, and does not contribute to the villain’s ATK or SCH value."
+          },
+          {
+            "text": "Only the ability text beneath the divider line is active on a card that is resolving as a boost card."
+          },
+          {
+            "text": "Damage dealt by a boost ability is not considered to be damage dealt by the activation during which the boost ability resolved."
+          },
+          {
+            "text": "If additional boost cards are resolved for an activation, the boost icons are cumulative, and all “Boost” abilities on those cards resolve."
+          },
+          {
+            "text": "After applying a boost card to an activation, discard it."
+          },
+          {
+            "text": "If an enemy is dealt a boost card outside of its own activation, that boost card remains facedown on that enemy until that enemy activates.",
+            "children": [
+              {
+                "text": "If that enemy is a villain or a minion with the villainous keyword, it still gets dealt another boost card at the start of its activation as normal."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Attack (Enemy Activation)", "slug": "attack-enemy-activation" },
+      { "term": "Scheme (Enemy Activation)", "slug": "scheme-enemy-activation" },
+      { "term": "Villain", "slug": "villain" }
+    ]
+  },
+  {
+    "term": "Damage",
+    "slug": "damage",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 14
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Damage reduces a character’s hit points. If a character has zero or fewer remaining hit points, it is defeated."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "Damage on an identity or villain is tracked by a hit point dial. If such a character takes damage, reduce its dial by the amount of damage that it took."
+          },
+          {
+            "text": "Damage on an ally or minion is tracked by damage tokens. If such a character takes damage, place the specified value of damage tokens on the character."
+          },
+          {
+            "text": "When damage is dealt to a character, that character takes damage.",
+            "children": [
+              {
+                "text": "When the amount of damage an effect deals is modified, the amount of damage the character takes is similarly modified."
+              },
+              {
+                "text": "When the amount of damage a character takes is modified (such as by damage being prevented), the amount of damage dealt is not modified."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The order of resolution for effects surrounding the dealing and taking of damage is as follows:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          { "text": "Abilities that trigger “when [character] would deal/be dealt any amount of damage...”" },
+          { "text": "Tough status cards." },
+          { "text": "Abilities that trigger “when [character] would take any amount of damage...”" },
+          { "text": "Abilities that trigger “when [character] takes any amount of damage...”" },
+          { "text": "Placing of damage on the character." },
+          { "text": "Abilities that trigger “when [character] would be defeated...”" },
+          { "text": "Abilities that trigger “when [character] is defeated...” (including “When Defeated” abilities)." },
+          { "text": "Discarding of a defeated character." },
+          { "text": "Abilities that trigger “after [character] deals/is dealt/takes any amount of damage...” or “after [character] defeats/is defeated...”" }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Defeat", "slug": "defeat" },
+      { "term": "Hit Points", "slug": "hit-points" },
+      { "term": "Indirect Damage", "slug": "indirect-damage" },
+      { "term": "Prevent", "slug": "prevent" },
+      { "term": "Tough", "slug": "tough" }
+    ]
+  },
+  {
+    "term": "Dash (Value)",
+    "slug": "dash-value",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 15
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A value presented as a dash (–) indicates that value cannot be used."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "If a card has a dash (–) as its cost value, that card cannot be played and can only enter play through other means."
+          },
+          {
+            "text": "If a character’s power (ATK, DEF, REC, SCH, and THW) has a dash (–) as the value, the character cannot exhaust to use that power."
+          },
+          {
+            "text": "If a game step or card ability references a value of dash (–), that value is treated as an unmodifiable 0. (For example, if an ability targets “the ally with the lowest SCH,” an ally with a dash for its SCH is considered to have the same SCH as an ally with a SCH of 0.)"
+          }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Basic Power", "slug": "basic-power" },
+      { "term": "Non-Numerical Variable", "slug": "non-numerical-variable" }
+    ]
+  },
+  {
+    "term": "Minion",
+    "slug": "minion",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 28
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Minion is an encounter card type. Minions represent supporters of the villain and/or enemies of the heroes."
+      },
+      {
+        "type": "paragraph",
+        "text": "If a minion enters play, it engages the player who is revealing the card from the encounter deck or resolving the ability that put the minion into play, unless an ability specifies otherwise."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "If a minion enters play, it remains in play until a card ability or game effect causes it to leave play."
+          },
+          {
+            "text": "If a minion has zero or fewer remaining hit points, it is defeated and discarded."
+          },
+          {
+            "text": "Minions engaged with a player activate (one minion at a time and in an order of the engaged player’s choosing) during step two of the villain phase, after the villain activates. If the engaged player is in hero form, these minions attack. If the engaged player is in alter-ego form, these minions scheme."
+          },
+          {
+            "text": "If a minion engages a player during an enemy activation in which all minions engaged with that player are instructed to activate (such as through a “Boost” ability during step two of the villain phase), the newly-engaged minion will also activate."
+          }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Encounter Card", "slug": "encounter-card" },
+      { "term": "Engage", "slug": "engage" },
+      { "term": "Enters Play", "slug": "enters-play" },
+      { "term": "Leaves Play", "slug": "leaves-play" },
+      { "term": "Villain", "slug": "villain" },
+      { "term": "Villain Phase", "slug": "villain-phase" }
+    ]
+  },
+  {
+    "term": "Scheme (Enemy Activation)",
+    "slug": "scheme-enemy-activation",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 39
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A scheme is a type of enemy activation. If an enemy is instructed to scheme, follow these steps:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          {
+            "text": "If a villain, or a minion with the villainous keyword, is scheming, give it one facedown boost card from the encounter deck. (If a minion without the villainous keyword is scheming, skip this step.)"
+          },
+          {
+            "text": "Resolve each of the scheming enemy’s boost cards, one at a time and in the order in which they were dealt, by doing the following:",
+            "children": [
+              { "text": "Flip the boost card faceup." },
+              { "text": "Resolve any “Boost” abilities, indicated by the star icon in the boost area. (All other abilities on the boost card are ignored.)" },
+              { "text": "Increase the scheming enemy’s SCH value by one for each boost icon on the card." },
+              { "text": "Discard the boost card." },
+              { "text": "If the enemy has any boost cards remaining, repeat these steps with the next boost card." }
+            ]
+          },
+          {
+            "text": "Place threat on the main scheme equal to the scheming enemy’s modified SCH value."
+          }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Activation", "slug": "activation" },
+      { "term": "Boost", "slug": "boost" },
+      { "term": "Minion", "slug": "minion" },
+      { "term": "Modifiers", "slug": "modifiers" },
+      { "term": "Villain", "slug": "villain" },
+      { "term": "Villain Phase", "slug": "villain-phase" },
+      { "term": "Villainous", "slug": "villainous" }
+    ]
+  },
+  {
+    "term": "Villain",
+    "slug": "villain",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 46
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Villain is an encounter card type that represents the primary enemy the players are attempting to defeat in a scenario."
+      },
+      {
+        "type": "paragraph",
+        "text": "The villain is represented by a sequential deck of one or more cards. The players defeat the villain by reducing the hit points of each stage of the villain deck to zero."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          {
+            "text": "Villain cards cannot be discarded from play."
+          }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Activation", "slug": "activation" },
+      { "term": "Attack (Enemy Activation)", "slug": "attack-enemy-activation" },
+      { "term": "Scheme (Enemy Activation)", "slug": "scheme-enemy-activation" },
+      { "term": "Villain Defeat", "slug": "villain-defeat" }
+    ]
+  },
+  {
+    "term": "Villain Phase",
+    "slug": "villain-phase",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 47
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The steps of the villain phase are:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          {
+            "text": "Place Threat. Place the amount of threat indicated in the main scheme’s acceleration field onto that scheme. If any acceleration icons or tokens are active, additional threat equal to the number of such icons and tokens is also placed at this time."
+          },
+          {
+            "text": "Enemies Activate. In player order, each player resolves the following:",
+            "children": [
+              { "text": "The villain activates against the player." },
+              { "text": "Each minion engaged with the player activates against them, in the order of that player’s choice." }
+            ]
+          },
+          {
+            "text": "Deal Encounter Cards. Deal one encounter card to each player. Deal one additional card for each hazard icon on a card in play. These additional cards are dealt in player order."
+          },
+          {
+            "text": "Reveal Encounter Cards. The first player reveals each of their encounter cards, one card at a time in the order in which they were dealt, resolving each card based on its card type. Each player repeats this process in player order, until no dealt encounter cards remain."
+          },
+          {
+            "text": "Pass First Player Token. Pass the first player token to the next clockwise player."
+          },
+          {
+            "text": "End of Villain Phase and Round.",
+            "children": [
+              { "text": "Any effects that last “until the end of the [villain] phase” or “until the end of the round” end." },
+              { "text": "Resolve any “when/after the [villain] phase ends” or “when/after the round ends” effects." }
+            ]
+          }
+        ]
+      }
+    ],
+    "seeAlso": [
+      { "term": "Acceleration Icon", "slug": "acceleration-icon" },
+      { "term": "Activation", "slug": "activation" },
+      { "term": "Attack (Enemy Activation)", "slug": "attack-enemy-activation" },
+      { "term": "Deal", "slug": "deal" },
+      { "term": "Main Scheme", "slug": "main-scheme" },
+      { "term": "Minion", "slug": "minion" },
+      { "term": "Scheme (Enemy Activation)", "slug": "scheme-enemy-activation" }
+    ]
+  },
+  {
+    "term": "ATK",
+    "slug": "atk",
+    "source": {
+      "document": "Rules Reference v1.8",
+      "page": 2
+    },
+    "redirectTo": [
+      { "term": "Attack (Player Action)", "slug": "attack-player-action" },
+      { "term": "Basic Power", "slug": "basic-power" }
     ]
   }
 ]
