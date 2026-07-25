@@ -420,6 +420,52 @@ ol.entry-list.ordered > li::marker { color: var(--accent); font-weight: 700; }
 .appendix-page { margin: 0.1rem 0 0; color: var(--text-muted); font-size: 0.85rem; }
 .appendix-note { margin-top: 1.2rem; font-style: italic; }
 
+/* Clickable appendix cards */
+a.appendix-card {
+  color: var(--text);
+  text-decoration: none;
+  border-left: 4px solid var(--accent);
+  transition: background 0.12s ease, box-shadow 0.12s ease, transform 0.12s ease;
+}
+a.appendix-card:hover {
+  background: var(--surface-2);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Individual appendix page */
+.appendix-back { display: inline-block; margin-bottom: 0.6rem; }
+
+.apx-h1 {
+  margin: 1.6rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: var(--heading);
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent);
+}
+.apx-h2 {
+  margin: 1.2rem 0 0.4rem;
+  font-size: 1rem;
+  color: var(--heading-light);
+}
+.apx-question {
+  margin: 0.9rem 0 0.3rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.apx-question::before {
+  content: "Q  ";
+  color: var(--accent);
+  font-weight: 700;
+}
+/* Answer paragraphs (those following a question) read as normal body text */
+.apx-question + .entry-para::before {
+  content: "A  ";
+  color: var(--heading-light);
+  font-weight: 700;
+}
+
 /* ============================================================
    Tablet / desktop: two-column layout
    ============================================================ */
