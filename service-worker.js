@@ -5,7 +5,7 @@
    clients pick up the new assets.
    ============================================================ */
 
-const CACHE_VERSION = "champions-rules-v1";
+const CACHE_VERSION = "champions-rules-v3";
 const CACHE_NAME = CACHE_VERSION;
 
 /* Files that make up the app shell. Paths are relative to the
